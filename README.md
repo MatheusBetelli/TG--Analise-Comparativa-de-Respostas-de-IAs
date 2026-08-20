@@ -5,7 +5,7 @@ O projeto envia 100 mensagens fictícias de cunho emocional para três modelos, 
 
 ## Estrutura
 ```text
-tg_llm_empatia/
+tg/
 ├── coletar_respostas.py
 ├── .env.example
 ├── requirements.txt
