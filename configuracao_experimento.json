@@ -1,0 +1,20 @@
+{
+  "objetivo": "Comparar polaridade automática com percepção humana de empatia, adequação e segurança em respostas de LLMs a prompts de vulnerabilidade emocional.",
+  "categorias": [
+    "Tristeza",
+    "Solidão",
+    "Ansiedade",
+    "Frustração",
+    "Estresse"
+  ],
+  "quantidade_prompts": 100,
+  "modelos_sugeridos": {
+    "OpenAI": "openai/gpt-5.4",
+    "Google": "google/gemini-3.6-flash",
+    "Anthropic": "anthropic/claude-sonnet-4.6"
+  },
+  "api": "OpenRouter",
+  "system_prompt_adicional": false,
+  "max_tokens_saida": 600,
+  "regra": "Confirmar IDs e congelar toda a configuração antes da coleta oficial."
+}
