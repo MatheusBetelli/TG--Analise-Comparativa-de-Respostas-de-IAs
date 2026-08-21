@@ -97,7 +97,7 @@ for i, idx in enumerate(top_indices):
     print(f"  {i+1}. {features[idx]} (peso: {importances[idx]:.4f})")
 
 # 8. Classificar as 300 Respostas de IA do seu TG
-csv_ias_path = 'data/output/respostas_ias.csv'
+csv_ias_path = 'data/output/respostas_ias_tg.csv'
 if os.path.exists(csv_ias_path):
     print("\n" + "=" * 65)
     print(f"4. CLASSIFICANDO AS 300 RESPOSTAS DE IA ({csv_ias_path})")
