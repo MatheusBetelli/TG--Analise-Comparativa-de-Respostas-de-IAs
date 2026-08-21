@@ -17,6 +17,7 @@ MODELS = {
     "OpenAI": os.getenv("OPENAI_MODEL", "openai/gpt-5.4"),
     "Google": os.getenv("GEMINI_MODEL", "google/gemini-3.6-flash"),
     "Anthropic": os.getenv("CLAUDE_MODEL", "anthropic/claude-sonnet-4.6"),
+    "Meta": os.getenv("META_MODEL", "meta-llama/llama-4-maverick")
 }
 
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "600"))

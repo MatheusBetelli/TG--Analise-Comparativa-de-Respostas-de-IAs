@@ -11,7 +11,9 @@
   "modelos_sugeridos": {
     "OpenAI": "openai/gpt-5.4",
     "Google": "google/gemini-3.6-flash",
-    "Anthropic": "anthropic/claude-sonnet-4.6"
+    "Anthropic": "anthropic/claude-sonnet-4.6",
+    "Meta": "meta-llama/llama-4-maverick"
+
   },
   "api": "OpenRouter",
   "system_prompt_adicional": false,

@@ -35,6 +35,7 @@ Abra `.env` e coloque sua chave do OpenRouter.
 python coletar_respostas.py --limit 1 --provider OpenAI
 python coletar_respostas.py --limit 1 --provider Google
 python coletar_respostas.py --limit 1 --provider Anthropic
+python coletar_respostas.py --limit 1 --provider Meta
 ```
 
 ## Testar os três
