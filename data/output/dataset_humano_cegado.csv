@@ -1,0 +1,1292 @@
+﻿bloco_num,prompt_id,categoria,mensagem,modelo_cegado,provedor_real,resposta
+1,P001,Tristeza,"Ultimamente tenho me sentido meio para baixo, mesmo sem saber exatamente o motivo.",Modelo A,Anthropic,"Entendo, e obrigado por compartilhar isso. Esse sentimento de estar ""para baixo"" sem uma razão clara é mais comum do que parece, mas também pode ser desconfortável justamente por isso.
+
+Posso te fazer algumas perguntas para entender melhor?
+
+**Como isso tem aparecido no seu dia a dia?**
+- Falta de energia ou vontade de fazer coisas que normalmente gosta?
+- Dificuldade pra dormir ou dormindo demais?
+- Sensação de vazio ou desânimo geral?
+
+**Há quanto tempo você está se sentindo assim?**
+
+Pergunto porque faz diferença se é algo recente (que pode ter gatilhos que ainda não percebemos) ou algo que vai e volta há mais tempo.
+
+---
+
+Às vezes a gente não identifica ""um motivo"" porque:
+- As causas são **acumuladas** (pequenas coisas somadas)
+- Podem ser **físicas** (sono, alimentação, rotina)
+- Ou simplesmente o emocional **precisa de atenção** sem ter uma explicação óbvia
+
+Como você está se sentindo agora, nesse momento?"
+1,P001,Tristeza,"Ultimamente tenho me sentido meio para baixo, mesmo sem saber exatamente o motivo.",Modelo B,OpenAI,"Sinto muito que você esteja se sentindo assim. Mesmo sem um motivo claro, essa sensação de “estar para baixo” pode ser bem pesada — e ainda assim é válida.
+
+Às vezes isso acontece por acúmulo de coisas pequenas: cansaço, estresse, rotina, sono ruim, solidão, pressão interna. E às vezes simplesmente vem, sem explicação óbvia.
+
+Se quiser, posso te ajudar a entender melhor isso. Por exemplo:
+
+- isso vem acontecendo há alguns dias ou já faz semanas?
+- você sente mais tristeza, vazio, irritação ou desânimo?
+- seu sono, apetite ou energia mudaram?
+- ainda consegue sentir prazer nas coisas que costumava gostar?
+
+Se preferir, também posso só ficar aqui com você e conversar sem tentar “resolver” tudo agora.
+
+Uma coisa importante: se esse “para baixo” estiver ficando intenso, durando mais de duas semanas, ou vier com pensamentos de se machucar, de desistir de tudo, ou de que sua vida não vale a pena, vale muito buscar ajuda profissional o quanto antes. Se você estiver em risco imediato, procure emergência da sua região ou alguém de confiança agora. Se estiver no Brasil, você também pode falar com o CVV pelo 188, 24 horas.
+
+Se quiser, me conta como tem sido seus últimos dias."
+1,P001,Tristeza,"Ultimamente tenho me sentido meio para baixo, mesmo sem saber exatamente o motivo.",Modelo C,Meta,"Sentir-se para baixo sem um motivo claro pode ser realmente desafiador. É como se você estivesse carregando um peso que não consegue identificar ou explicar. Vamos explorar algumas possibilidades e estratégias que podem ajudar a entender e lidar com esses sentimentos.
+
+### Possíveis Causas
+
+1. **Estresse e Ansiedade**: O estresse e a ansiedade podem se manifestar de maneiras sutis, às vezes sem que você perceba que está sentindo esses sintomas. Eles podem afetar seu humor e fazer com que você se sinta para baixo.
+
+2. **Mudanças na Rotina ou na Vida**: Mudanças significativas, seja no trabalho, nas relações pessoais ou em outros aspectos da vida, podem causar sentimentos de incerteza ou desconforto.
+
+3. **Falta de Conexão Social**: Sentir-se isolado ou desconectado de amigos, familiares ou da comunidade pode contribuir para sentimentos de tristeza ou desânimo.
+
+4. **Saúde Física**: Problemas de saúde, mesmo que não sejam graves, podem afetar seu humor. Além disso, a falta de atividade física, uma dieta pobre ou a falta de sono adequado também podem influenciar seu estado de ânimo.
+
+### Estratégias para Lidar com esses Sentimentos
+
+1. **Pratique Autocuidado**: Cuide de sua saúde física e mental. Isso inclui dormir bem, comer alimentos nutritivos, exercitar-se regularmente e praticar atividades que você gosta.
+
+2. **Conecte-se com Outros**: Tente manter ou fortalecer suas conexões sociais. Conversar com amigos, familiares ou até mesmo um profissional de saúde mental pode ser muito útil.
+
+3. **Identifique e Gerencie o Estresse**: Técnicas de gerenciamento de estresse, como meditação, yoga ou simplesmente respirar fundo, podem ajudar a reduzir os níveis de estresse.
+
+4. **Estabeleça Metas e Celebre Conquistas**: Definir metas pequenas e alcançáveis pode ajudar a melhorar sua autoestima e dar um sentido de propósito. Celebrar suas conquistas, por menores que sejam, também é importante.
+
+5. **Procure Ajuda Profissional**: Se esses sentimentos persistirem ou se tornarem difíceis de gerenciar, pode ser útil procurar a ajuda de um profissional de saúde mental. Eles podem oferecer suporte e estratégias personalizadas para lidar com seus sentimentos.
+
+Lembre-se, é normal sentir-se para baixo de vez em quando. No entanto, se esses sentimentos forem persistentes ou interferirem significativamente em sua vida diária, buscar ajuda é um passo importante. Você não está sozinho, e há pessoas dispostas a ajudar."
+2,P002,Tristeza,Hoje acordei desanimado e parece que nada está me dando muita vontade de fazer as coisas.,Modelo A,Meta,"Entendo perfeitamente como você está se sentindo. A falta de motivação e o desânimo podem surgir por várias razões, como estresse, rotina monótona, problemas pessoais ou até mesmo questões de saúde. Aqui estão algumas sugestões que podem ajudar a melhorar seu estado de ânimo e aumentar sua motivação:
+
+1. **Faça uma caminhada ou pratique algum exercício físico**: A atividade física libera endorfinas, que são substâncias químicas no cérebro que atuam como antidepressivos naturais, melhorando o humor e reduzindo o estresse.
+
+2. **Mude a rotina**: Às vezes, uma mudança na rotina diária pode ser suficiente para quebrar o ciclo de desânimo. Tente fazer algo diferente hoje, como tomar um café em um lugar novo ou fazer uma atividade que você gosta, mas que não pratica com frequência.
+
+3. **Converse com alguém**: Falar sobre como você está se sentindo pode ajudar a aliviar o peso emocional. Pode ser um amigo, um familiar ou até mesmo um profissional de saúde mental, dependendo da profundidade do que você está sentindo.
+
+4. **Estabeleça metas pequenas e alcançáveis**: Quando estamos desanimados, grandes objetivos podem parecer insuperáveis. Tente dividir suas tarefas em metas menores e mais gerenciáveis. Celebrar o sucesso nessas pequenas metas pode ajudar a aumentar sua motivação.
+
+5. **Pratique a gratidão**: Reserve um momento para refletir sobre as coisas pelas quais você é grato. Manter um diário de gratidão pode ser uma prática útil para mudar o foco do que está faltando para o que você já tem.
+
+6. **Permita-se descansar**: Às vezes, o desânimo pode ser um sinal de que você precisa de um descanso. Certifique-se de que está dormindo bem e dando ao seu corpo o tempo necessário para se recuperar.
+
+7. **Explore novos hobbies ou interesses**: Engajar-se em uma nova atividade ou hobby pode ser uma excelente maneira de descobrir novas paixões e fontes de motivação.
+
+8. **Limite a exposição a notícias negativas**: O consumo excessivo de notícias, especialmente aquelas que são negativas ou estressantes, pode contribuir para o desânimo. Tente limitar o tempo que você passa consumindo notícias e foque em conteúdo mais positivo ou neutro.
+
+9. **Cuide de sua saúde**: Certifique-se de que está comendo bem, bebendo bastante água e cuidando de sua saúde física. A saúde física está intimamente ligada ao bem-estar mental.
+
+10. **Seja paciente**: É importante lembrar que é normal passar por períodos de desânimo e que, com o tempo e as estratégias certas, você pode superar esse sentimento.
+
+Espero que essas sugestões ajudem. Se o desânimo persistir ou se você estiver lutando para lidar com seus sentimentos, pode ser útil buscar apoio profissional."
+2,P002,Tristeza,Hoje acordei desanimado e parece que nada está me dando muita vontade de fazer as coisas.,Modelo B,Anthropic,"Entendo como você se sente. Esses dias assim acontecem com todo mundo, e é importante reconhecer o que está sentindo em vez de ignorar.
+
+Posso te fazer algumas perguntas para entender melhor?
+
+**Sobre hoje especificamente:**
+- Você consegue identificar se tem alguma coisa específica te pesando, ou é uma sensação mais difusa, sem motivo claro?
+- Dormiu bem? Às vezes o corpo já acorda ""no limite""
+
+**Pensando de forma mais ampla:**
+- Isso é algo pontual, de hoje, ou você tem sentido isso com mais frequência ultimamente?
+
+Pergunto porque ""desanimado e sem vontade"" pode ser muita coisa diferente, desde um dia ruim normal até algo que merece mais atenção.
+
+Como você está se sentindo agora, enquanto me conta isso?"
+2,P002,Tristeza,Hoje acordei desanimado e parece que nada está me dando muita vontade de fazer as coisas.,Modelo C,OpenAI,"Sinto muito que você esteja assim hoje. Isso pode ser bem pesado.
+
+Às vezes existem dias em que tudo parece sem cor e até coisas simples exigem esforço. Você não precisa “render” normalmente o tempo todo.
+
+Se quiser, posso te ajudar de forma bem prática agora. Algumas opções:
+
+1. **Fazer um check-in rápido com você**
+   - Você dormiu bem?
+   - Comeu ou bebeu água hoje?
+   - Tem algo específico te preocupando, ou é mais uma sensação geral de desânimo?
+
+2. **Montar um plano mínimo para hoje**
+   Tipo só 3 metas pequenas:
+   - levantar e lavar o rosto
+   - beber um copo de água
+   - fazer uma tarefa simples de 5 minutos
+
+3. **Só conversar**
+   Se preferir, você pode me contar como está se sentindo sem precisar organizar muito.
+
+Quero também te perguntar uma coisa importante, com cuidado: **esse desânimo vem junto com vontade de sumir, de se machucar, ou sensação de que não vale a pena continuar?**  
+Se sim, me fala imediatamente. Se houver risco de você agir agora, procure ajuda urgente com alguém de confiança, um familiar/amigo, ou o serviço de emergência da sua região. Se você estiver no Brasil, também pode ligar para o **CVV no 188**, 24 horas.
+
+Se quiser, posso ficar com você aqui e te ajudar a passar pela próxima meia hora, sem pressão."
+3,P003,Tristeza,Tenho tido dias em que fico triste do nada e depois demoro para voltar ao normal.,Modelo A,Anthropic,"Entendo o que você está descrevendo. Essa sensação de tristeza que aparece sem uma razão clara, e que demora para passar, pode ser bem desconfortável e confusa.
+
+Queria entender melhor o que você está vivendo...
+
+**Algumas perguntas, se quiser refletir:**
+
+- Isso tem acontecido com que frequência? É algo recente ou já faz um tempo?
+- Quando você diz ""voltar ao normal"", o que você sente que muda — energia, vontade de fazer coisas, pensamentos?
+- Tem alguma coisa na sua vida que está pesando, mesmo que pareça não ter relação direta?
+
+Às vezes a tristeza ""do nada"" não é bem do nada — ela pode ser sinal de algo que está acumulando, de cansaço emocional, de algo que o corpo e a mente estão tentando processar.
+
+Como você está se sentindo agora, neste momento?"
+3,P003,Tristeza,Tenho tido dias em que fico triste do nada e depois demoro para voltar ao normal.,Modelo B,Meta,"Sentir tristeza sem motivo aparente pode ser um sinal de que algo está acontecendo internamente que precisa ser explorado. Existem várias razões pelas quais isso pode estar acontecendo, e é importante considerar diferentes aspectos da sua vida e bem-estar. Aqui estão algumas possíveis explicações e sugestões:
+
+1. **Estresse e Sobrecarga**: Às vezes, o estresse acumulado pode manifestar-se como tristeza ou irritabilidade sem um motivo claro. Se você está lidando com muitas responsabilidades ou desafios, isso pode estar afetando seu estado emocional.
+
+2. **Mudanças Hormonais**: Flutuações hormonais, como aquelas que ocorrem durante o ciclo menstrual, gravidez, pós-parto ou menopausa, podem influenciar o humor.
+
+3. **Falta de Sono ou Qualidade do Sono**: O sono desempenha um papel crucial na regulação do humor. A falta de sono ou sono de má qualidade pode levar a sentimentos de tristeza ou irritabilidade.
+
+4. **Isolamento Social**: A falta de interação social ou sentir-se desconectado de amigos e familiares pode contribuir para sentimentos de tristeza.
+
+5. **Saúde Mental**: Condições como depressão ou ansiedade podem causar episódios de tristeza sem um motivo aparente. Se esses sentimentos são persistentes ou interferem significativamente na sua vida diária, pode ser útil procurar ajuda profissional.
+
+6. **Mudanças na Vida**: Grandes mudanças, como uma mudança de emprego, perda de um ente querido ou uma mudança de residência, podem causar sentimentos de tristeza ou incerteza.
+
+7. **Fatores Nutricionais**: Uma dieta pobre ou deficiências nutricionais podem afetar o humor. Nutrientes como vitamina D, B12 e ômega-3 são importantes para a saúde mental.
+
+### O que você pode fazer?
+
+- **Pratique Autocuidado**: Reserve tempo para atividades que você gosta e que o fazem se sentir bem, como exercícios, hobbies ou passar tempo com pessoas queridas.
+- **Melhore a Qualidade do Sono**: Estabeleça uma rotina de sono regular e crie um ambiente propício para dormir.
+- **Alimentação Saudável**: Tente manter uma dieta equilibrada rica em frutas, vegetais, proteínas magras e grãos integrais.
+- **Procure Apoio**: Falar sobre seus sentimentos com amigos, familiares ou um profissional de saúde mental pode ser muito útil.
+- **Pratique Mindfulness ou Meditação**: Técnicas de mindfulness e meditação podem ajudar a gerenciar o estresse e melhorar o humor.
+
+Se você está preocupado com a frequência ou intensidade desses sentimentos de tristeza, considerar falar com um profissional de saúde mental pode ser um passo importante. Eles podem oferecer apoio, orientação e, se necessário, tratamento adequado."
+3,P003,Tristeza,Tenho tido dias em que fico triste do nada e depois demoro para voltar ao normal.,Modelo C,OpenAI,"Sinto muito que você esteja passando por isso. Ter dias em que a tristeza aparece “do nada” e demora a passar pode ser bem pesado.
+
+Às vezes isso acontece por vários motivos: estresse acumulado, cansaço, solidão, ansiedade, questões hormonais, ou até algo mais persistente como depressão. Não dá para concluir a causa só por essa frase, mas vale levar a sério, especialmente se está se repetindo.
+
+Pode me ajudar a entender melhor?
+
+- Isso acontece há quanto tempo?
+- Com que frequência?
+- Quando vem, o que você sente além da tristeza: desânimo, vontade de chorar, irritação, vazio?
+- Seu sono, apetite ou energia mudaram?
+- Você ainda consegue sentir prazer nas coisas normalmente?
+- Tem acontecido algo difícil na sua vida ultimamente?
+
+Se quiser, também posso te ajudar a fazer um “check-in” rápido do que você está sentindo.
+
+E preciso perguntar algo importante: em algum desses momentos você tem pensado em se machucar, em desaparecer, ou que a vida não vale a pena? Se sim, me diga agora — eu levo isso a sério e posso te ajudar a buscar apoio imediato."
+4,P004,Tristeza,Sinto que perdi um pouco da animação que eu tinha para as coisas do dia a dia.,Modelo A,Anthropic,"Isso é algo importante que você está percebendo em si mesmo.
+
+Quando você diz que perdeu a animação para as coisas do dia a dia... você consegue identificar quando isso começou, ou foi chegando aos poucos?"
+4,P004,Tristeza,Sinto que perdi um pouco da animação que eu tinha para as coisas do dia a dia.,Modelo B,Meta,"**Entendo como você se sente**
+
+Parece que você está passando por um momento em que as coisas não estão tão emocionais ou motivadoras quanto você gostaria. Isso é completamente normal e pode acontecer com qualquer pessoa em algum momento da vida.
+
+**Vamos explorar juntos**
+
+Existem muitas razões pelas quais podemos perder a animação ou a motivação. Algumas delas podem incluir:
+
+* **Rotina**: Quando fazemos as mesmas coisas todos os dias, elas podem se tornar monótonas e perder o interesse.
+* **Estresse**: O estresse e a pressão podem nos deixar exaustos e sem energia para as coisas que normalmente gostamos.
+* **Mudanças na vida**: Mudanças significativas na vida, como uma mudança de emprego ou uma perda pessoal, podem afetar nossa motivação e animação.
+* **Falta de objetivos**: Quando não temos objetivos claros ou desafiadores, podemos nos sentir sem direção e sem motivação.
+
+**O que podemos fazer?**
+
+Aqui estão algumas sugestões para ajudar a recuperar a animação e a motivação:
+
+1. **Tente algo novo**: Faça algo que você nunca fez antes, como um hobby ou uma atividade que sempre quis experimentar.
+2. **Defina objetivos**: Estabeleça metas claras e alcançáveis para si mesmo, seja a curto ou a longo prazo.
+3. **Crie uma rotina mais interessante**: Tente variar sua rotina diária, adicionando coisas novas e interessantes.
+4. **Converse com alguém**: Fale com um amigo, familiar ou profissional sobre como você está se sentindo. Às vezes, apenas compartilhar nossos sentimentos pode ajudar a clarear as coisas.
+5. **Cuide de si mesmo**: Certifique-se de que está cuidando de sua saúde física e mental. Isso inclui dormir bem, comer bem e fazer exercícios regulares.
+
+**Conclusão**
+
+Perder a animação e a motivação é uma experiência comum, mas não é permanente. Com um pouco de reflexão e ação, você pode começar a se sentir mais motivado e animado novamente. Lembre-se de que é okay pedir ajuda e que você não está sozinho. Se precisar de mais apoio ou orientação, estou aqui para ajudar."
+4,P004,Tristeza,Sinto que perdi um pouco da animação que eu tinha para as coisas do dia a dia.,Modelo C,OpenAI,"Sinto muito que você esteja se sentindo assim. Perder a animação pelas coisas do dia a dia pode ser bem pesado — e, ao mesmo tempo, é algo mais comum do que parece.
+
+Se quiser, a gente pode ir com calma. Às vezes ajuda começar entendendo melhor **como isso está acontecendo**. Por exemplo:
+
+- Faz quanto tempo que você sente isso?
+- É mais uma sensação de cansaço, vazio, desânimo ou falta de prazer?
+- Isso tem atrapalhado trabalho, estudos, sono, alimentação ou seus relacionamentos?
+- Teve alguma mudança recente na sua vida, algum estresse, perda ou decepção?
+
+Também quero dizer uma coisa importante: esse tipo de sensação pode aparecer por muitos motivos — estresse acumulado, esgotamento, tristeza, ansiedade, rotina pesada, solidão, ou às vezes algo mais profundo como depressão. Não dá para concluir só por uma frase, mas **vale levar a sério**, especialmente se estiver durando semanas.
+
+Algumas coisas pequenas que podem ajudar a observar ou aliviar um pouco:
+- manter uma rotina mínima de sono e alimentação
+- sair de casa ou tomar um pouco de sol
+- fazer alguma atividade leve, mesmo sem vontade
+- falar com alguém de confiança sobre como você está
+- diminuir a cobrança de “precisar estar bem” o tempo todo
+
+Se isso estiver persistindo, ou piorando, conversar com um **psicólogo ou psiquiatra** pode ser um passo importante. Não precisa esperar “ficar muito ruim” para buscar ajuda.
+
+E quero checar uma coisa com cuidado:  
+**você tem sentido que a vida perdeu o sentido, ou teve pensamentos de querer sumir, se machucar ou morrer?**  
+Se sim, me fala claramente — eu vou te responder com toda atenção."
+5,P021,Solidão,Ultimamente tenho sentido falta de ter alguém com quem conversar de verdade.,Modelo A,Anthropic,"Entendo esse sentimento. É uma sensação bastante humana e que muita gente carrega, às vezes sem conseguir nomear direito.
+
+Posso te perguntar um pouco mais sobre isso?
+
+**Quando você diz ""de verdade"" - o que faz falta exatamente?**
+
+- Alguém que te ouça sem julgamento?
+- Conversas mais profundas, não só superficiais?
+- Sentir que a outra pessoa realmente se importa?
+- Ou talvez uma presença física, alguém próximo?
+
+Pergunto porque ""falta de companhia"" pode ter formas bem diferentes - às vezes a pessoa tem gente ao redor mas ainda se sente sozinha, o que é até mais confuso de lidar.
+
+Como tem sido pra você?"
+5,P021,Solidão,Ultimamente tenho sentido falta de ter alguém com quem conversar de verdade.,Modelo B,OpenAI,"Sinto muito que você esteja se sentindo assim.  
+Essa falta de uma conversa de verdade pode doer bastante, e às vezes pesa mais do que a gente consegue explicar.
+
+Se quiser, eu posso ser esse espaço agora. Sem pressa, sem julgamento.
+
+Você quer me contar:
+- como tem sido esses últimos dias,
+- se está se sentindo mais sozinho(a),
+- ou se aconteceu alguma coisa específica que te fez sentir isso mais forte?
+
+Se preferir, também posso simplesmente ficar aqui conversando com você de forma leve, como companhia."
+5,P021,Solidão,Ultimamente tenho sentido falta de ter alguém com quem conversar de verdade.,Modelo C,Meta,"Sentir falta de alguém com quem conversar de verdade pode ser um sentimento muito comum, especialmente em tempos onde as interações sociais podem se tornar mais superficiais devido ao uso excessivo de tecnologia e redes sociais. Aqui estão algumas sugestões que podem ajudar a encontrar alguém com quem conversar de forma mais significativa:
+
+1. **Grupos de Interesse**: Procure por grupos ou clubes que se alinhem com seus interesses. Isso pode incluir desde grupos de leitura, clubes de esportes, até grupos de voluntariado. Esses ambientes são ótimos para conhecer pessoas que compartilham suas paixões e valores.
+
+2. **Cursos ou Oficinas**: Inscrever-se em cursos ou oficinas pode ser uma excelente maneira de conhecer novas pessoas. Além de aprender algo novo, você estará em um ambiente onde as pessoas estão dispostas a aprender e interagir.
+
+3. **Aplicativos e Plataformas de Encontro**: Existem vários aplicativos e plataformas projetados para conectar pessoas com interesses semelhantes. Alguns são mais focados em amizades do que em relacionamentos românticos.
+
+4. **Redes Sociais e Fóruns Online**: Embora você tenha mencionado sentir falta de conversas ""de verdade"", às vezes, começar online pode ser um bom primeiro passo. Existem muitos fóruns e grupos nas redes sociais dedicados a uma ampla gama de tópicos. Você pode começar a se conectar com pessoas que compartilham seus interesses.
+
+5. **Amigos e Família**: Às vezes, a solução pode estar mais perto do que você pensa. Tente se reconectar com amigos ou familiares com quem você não tem conversado há algum tempo. Uma simples ligação ou mensagem pode reavivar uma conexão.
+
+6. **Terapia ou Aconselhamento**: Se você está sentindo uma falta profunda de conexão e isso está afetando sua saúde mental, pode ser útil procurar a ajuda de um profissional. Um terapeuta pode oferecer um espaço seguro para explorar seus sentimentos e desenvolver estratégias para melhorar suas conexões sociais.
+
+7. **Saia de Casa**: Às vezes, simplesmente sair de casa e se envolver em atividades na comunidade pode ser o primeiro passo para conhecer novas pessoas. Cafés, parques, eventos locais são ótimos lugares para começar.
+
+Lembre-se, construir conexões significativas leva tempo e esforço. Seja paciente consigo mesmo e aberto a novas experiências."
+6,P022,Solidão,"Mesmo conhecendo bastante gente, às vezes sinto que não tenho uma pessoa realmente próxima.",Modelo A,OpenAI,"Isso pode doer bastante — estar cercado de gente e ainda assim sentir falta de alguém “seu”, com intimidade de verdade.
+
+Conhecer muitas pessoas não é a mesma coisa que se sentir próximo. Às vezes há companhia, conversa, até afeto, mas falta profundidade, reciprocidade, ou aquela sensação de “posso ser eu aqui”.
+
+Esse sentimento não significa que há algo errado com você. Pode acontecer por vários motivos:
+- relações mais superficiais do que íntimas;
+- dificuldade de se abrir de verdade;
+- estar sempre no papel de quem escuta, mas não de quem é escutado;
+- mudanças de fase, rotina ou prioridades;
+- ou simplesmente ainda não ter encontrado alguém com quem a conexão encaixe.
+
+Se quiser, em vez de tentar “ter mais gente por perto”, pode ajudar pensar:
+- Com quem eu me sinto mais à vontade?
+- Em quais relações existe espaço para vulnerabilidade?
+- Eu tenho mostrado meu lado mais verdadeiro, ou fico no automático/social?
+- Há alguém com quem eu gostaria de me aproximar mais, se eu desse um pequeno passo?
+
+Às vezes proximidade se constrói justamente nesses passos pequenos:
+- chamar alguém para uma conversa mais pessoal;
+- dizer algo real sobre como você tem se sentido;
+- investir com constância em 1 ou 2 relações, em vez de muitas;
+- procurar ambientes onde a conexão tende a ser mais profunda, não só casual.
+
+E, claro, esse tipo de solidão acompanhada pode cansar bastante. Se isso estiver pesando com frequência, conversar com um terapeuta também pode ajudar a entender se o que falta é oportunidade, segurança emocional, ou um espaço mais genuíno de vínculo.
+
+Se quiser, posso te ajudar a explorar esse sentimento melhor — por exemplo: você sente que falta intimidade, confiança, reciprocidade, ou alguém para dividir a vida no dia a dia?"
+6,P022,Solidão,"Mesmo conhecendo bastante gente, às vezes sinto que não tenho uma pessoa realmente próxima.",Modelo B,Anthropic,"Isso que você descreveu é uma sensação bastante comum, mas que pode ser bem pesada de carregar.
+
+Conhecer muita gente e ainda assim se sentir sozinho tem até um nome - às vezes chamam de **solidão social** - e é diferente de simplesmente não ter pessoas ao redor.
+
+Posso te perguntar algumas coisas para entender melhor?
+
+**O que você sente que falta nessas relações?**
+- Alguém que te conheça de verdade, não só a versão ""social"" sua?
+- Reciprocidade - você se importa mais do que as pessoas se importam com você?
+- Espaço para ser vulnerável sem julgamento?
+- Simplesmente mais tempo e presença?
+
+Pergunto porque a sensação pode vir de lugares diferentes:
+
+- Às vezes a pessoa **se protege tanto** que não deixa ninguém entrar de verdade
+- Às vezes as **conexões são superficiais** pelo contexto (trabalho, redes sociais)
+- Às vezes a pessoa passou por algo que **quebrou a confiança** em se aproximar
+- Às vezes é uma fase de **transição** - amizades antigas se distanciaram e novas ainda não aprofundaram
+
+O que ressoa mais com você?"
+6,P022,Solidão,"Mesmo conhecendo bastante gente, às vezes sinto que não tenho uma pessoa realmente próxima.",Modelo C,Meta,"Sentir-se desconectado ou isolado, mesmo estando cercado por pessoas, é uma experiência comum. Existem várias razões pelas quais isso pode acontecer, e explorar essas razões pode ajudar a entender melhor o que está acontecendo e como lidar com isso.
+
+1. **Superficialidade nas Relações**: Muitas vezes, as relações podem ser superficiais, baseadas em interações diárias ou em contextos específicos (como o trabalho ou redes sociais), mas sem uma profundidade emocional significativa. Isso pode deixar a sensação de não ter alguém com quem compartilhar sentimentos, pensamentos ou experiências de forma autêntica.
+
+2. **Falta de Conexão Emocional**: A conexão emocional é fundamental para sentir que alguém é ""realmente próximo"". Isso envolve compartilhar experiências, sentimentos e pensamentos de maneira vulnerável. Se as relações não alcançam esse nível de intimidade, pode haver uma sensação de isolamento.
+
+3. **Mudanças na Vida**: Mudanças significativas na vida, como mudar de cidade, trocar de emprego ou passar por uma perda pessoal, podem afetar as relações existentes e dificultar a formação de novas conexões significativas.
+
+4. **Dificuldades Pessoais**: Algumas pessoas podem enfrentar dificuldades em se abrir ou confiar nos outros devido a experiências passadas, medo de rejeição ou vulnerabilidade.
+
+5. **Uso Excessivo de Tecnologia**: O uso excessivo de redes sociais e tecnologia pode criar uma sensação de conexão, mas muitas vezes falta a profundidade e a intimidade que as interações face a face podem proporcionar.
+
+### O que fazer?
+
+1. **Buscar Atividades que Promovam Conexões**: Participar de grupos, clubes ou atividades que compartilham seus interesses pode ser uma ótima maneira de conhecer pessoas com quem você tem algo em comum.
+
+2. **Investir em Relações Existentes**: Às vezes, há pessoas próximas que podem estar disponíveis para uma conexão mais profunda. Tente se abrir mais com amigos ou familiares.
+
+3. **Praticar a Vulnerabilidade**: Ser vulnerável e se abrir com os outros pode ser desafiador, mas é uma parte crucial de construir relações significativas.
+
+4. **Limitar o Uso de Tecnologia**: Estabeleça limites para o uso de redes sociais e priorize interações presenciais.
+
+5. **Procurar Ajuda Profissional**: Se a sensação de isolamento está afetando significativamente a sua qualidade de vida, pode ser útil procurar a ajuda de um profissional de saúde mental. Eles podem oferecer estratégias e apoio para lidar com esses sentimentos.
+
+Lembre-se, construir relações significativas leva tempo e esforço. Ser paciente e persistente pode ajudar a cultivar conexões mais profundas com os outros."
+7,P023,Solidão,Tenho passado bastante tempo sozinho e comecei a perceber que isso está me incomodando.,Modelo A,Anthropic,"Entendo. Ficar muito tempo sozinho pode pesar de formas diferentes para cada pessoa.
+
+Me conta um pouco mais sobre isso:
+
+**O que exatamente está te incomodando?**
+- É a falta de companhia no dia a dia?
+- Pensamentos que surgem quando você fica em silêncio?
+- Sensação de que as coisas não têm muito propósito?
+- Algo diferente?
+
+Pergunto porque ""estar sozinho"" pode ser a causa, ou às vezes é o contexto onde outras coisas aparecem com mais clareza."
+7,P023,Solidão,Tenho passado bastante tempo sozinho e comecei a perceber que isso está me incomodando.,Modelo B,Meta,"Sentir-se sozinho ou passar muito tempo isolado pode ser desafiador para muitas pessoas. É comum sentir a necessidade de conexão social e interação humana. Aqui estão algumas sugestões que podem ajudar a lidar com a solidão e aumentar as oportunidades de interação social:
+
+1. **Conecte-se com amigos e familiares**: Mesmo que não possa vê-los pessoalmente, uma ligação telefônica, uma mensagem de texto ou uma chamada de vídeo pode ajudar a manter o contato e reduzir a sensação de isolamento.
+
+2. **Participe de atividades em grupo**: Procure por grupos ou clubes que se alinhem com seus interesses. Isso pode incluir desde grupos de leitura, clubes de esportes, até grupos de voluntários. Participar de atividades em grupo pode ser uma ótima maneira de conhecer novas pessoas e fazer amigos.
+
+3. **Explore hobbies e interesses**: Engajar-se em atividades que você gosta pode não só distraí-lo da sensação de solidão, mas também proporcionar oportunidades de conhecer pessoas com interesses semelhantes.
+
+4. **Considere terapia ou aconselhamento**: Se a sensação de solidão está afetando significativamente sua qualidade de vida, pode ser útil falar com um profissional de saúde mental. Eles podem oferecer estratégias para lidar com a solidão e melhorar sua saúde mental.
+
+5. **Use a tecnologia a seu favor**: Embora o excesso de tempo frente às telas possa ter seus próprios problemas, a tecnologia também pode ser uma ferramenta útil para se conectar com os outros. Plataformas de mídia social, aplicativos de namoro e fóruns online podem ser maneiras de conhecer novas pessoas.
+
+6. **Adote um animal de estimação**: Ter um animal de estimação pode proporcionar companhia e reduzir a sensação de solidão. Além disso, cuidar de um animal pode ser uma atividade gratificante.
+
+7. **Saia de casa**: Às vezes, simplesmente sair de casa e estar em um ambiente diferente pode ajudar. Isso pode significar ir ao parque, fazer compras ou simplesmente dar um passeio.
+
+8. **Aprenda algo novo**: Inscrever-se em um curso online ou presencial pode ser uma ótima maneira de conhecer novas pessoas enquanto desenvolve uma nova habilidade.
+
+Lembre-se, é normal sentir-se sozinho de vez em quando, mas se essa sensação persistir e começar a afetar sua saúde mental ou física, é importante buscar apoio."
+7,P023,Solidão,Tenho passado bastante tempo sozinho e comecei a perceber que isso está me incomodando.,Modelo C,OpenAI,"Sinto muito que você esteja passando por isso. Perceber que a solidão está começando a pesar já é um passo importante.
+
+Ficar muito tempo sozinho pode mexer com o humor, a motivação e até a forma como a gente vê a si mesmo. Isso não significa que há “algo errado” com você — significa só que você está sentindo falta de conexão, e isso é muito humano.
+
+Se quiser, você pode começar com passos pequenos, sem se cobrar demais:
+
+- mandar mensagem para alguém com quem você se sente à vontade
+- sair de casa nem que seja para um lugar simples, como uma caminhada ou um café
+- retomar alguma atividade em grupo, presencial ou online
+- criar uma rotina com momentos de contato social, mesmo curtos
+- escrever um pouco sobre o que exatamente está doendo: falta de companhia, de conversa, de afeto, de pertencimento?
+
+Também pode ajudar observar:
+- isso vem acontecendo há quanto tempo?
+- você está se isolando por escolha, cansaço, medo ou falta de oportunidade?
+- além da solidão, você tem sentido tristeza constante, ansiedade ou desânimo?
+
+Se esse sentimento estiver ficando intenso, frequente, ou começando a afetar seu sono, apetite, energia ou vontade de viver, conversar com um psicólogo pode fazer bastante diferença.
+
+Se quiser, eu posso ficar com você nisso agora. Me conta: o que tem sido mais difícil — o silêncio, a falta de companhia, ou a sensação de desconexão?"
+8,P024,Solidão,Às vezes vejo grupos de amigos juntos e fico pensando por que não tenho algo parecido.,Modelo A,Anthropic,"Esse pensamento é bem humano e faz sentido sentir isso.
+
+Mas vale a pena examinar um pouco antes de chegar a conclusões:
+
+**O que você realmente está vendo?**
+- Um momento específico, não a vida inteira dessas pessoas
+- Grupos têm conflitos, pessoas se sentem excluídas dentro deles, amizades superficiais
+- Você está comparando o *seu interior* com o *exterior* dos outros
+
+**Algumas perguntas mais úteis:**
+- Você já teve amizades próximas antes? O que aconteceu?
+- Você quer um grupo ou quer *conexões genuínas* de verdade?
+- Tem situações onde você evita se aproximar das pessoas?
+
+**O que geralmente está por trás desse sentimento:**
+- Solidão real que merece atenção
+- Dificuldade de iniciar ou manter vínculos
+- Timidez, ansiedade social, ou simplesmente não ter encontrado pessoas compatíveis
+- Às vezes, um estilo de vida que não favorece encontros
+
+---
+
+Não quero só validar o sentimento sem entender o que está acontecendo de verdade com você.
+
+O que acha que explica essa situação no seu caso?"
+8,P024,Solidão,Às vezes vejo grupos de amigos juntos e fico pensando por que não tenho algo parecido.,Modelo B,Meta,"Sentir-se excluído ou notar que os outros parecem ter conexões sociais mais fortes pode ser uma experiência comum e, às vezes, dolorosa. É natural desejar ter amigos próximos com quem compartilhar experiências e momentos da vida. Aqui estão algumas sugestões que podem ajudar a cultivar amizades e construir uma rede de apoio:
+
+1. **Seja Aberto e Amigável**: Sorrir e ser receptivo pode fazer uma grande diferença. As pessoas geralmente são atraídas por aqueles que parecem acessíveis e amigáveis.
+
+2. **Participe de Atividades de Grupo**: Encontrar hobbies ou interesses em comum é uma ótima maneira de conhecer pessoas com quem você pode se conectar. Isso pode incluir desde clubes de leitura, grupos de esportes, até workshops ou classes.
+
+3. **Seja Proativo**: Não espere que as oportunidades venham até você; vá atrás delas. Convide pessoas para sair, seja para um café, um passeio ou qualquer outra atividade que vocês possam desfrutar juntos.
+
+4. **Cultive a Empatia e a Escuta Ativa**: Mostrar interesse genuíno nas vidas dos outros e estar disposto a ouvir pode fortalecer os laços. Tente entender as perspectivas e experiências das pessoas ao seu redor.
+
+5. **Seja Paciente**: Construir amizades significativas leva tempo. Não se desespere se as coisas não acontecerem da noite para o dia. Continue se esforçando e sendo você mesmo.
+
+6. **Use a Tecnologia a Seu Favor**: Em uma era digital, as redes sociais e aplicativos de mensagens podem ser ferramentas úteis para manter contato com amigos e conhecidos. No entanto, tente equilibrar o tempo online com interações presenciais.
+
+7. **Aproveite as Oportunidades no Trabalho ou na Escola**: Muitas vezes, os ambientes de trabalho ou estudo oferecem oportunidades naturais para conhecer novas pessoas. Participe de eventos, projetos em equipe e outras atividades que possam ajudar a construir relacionamentos.
+
+8. **Seja Você Mesmo**: A autenticidade é atraente. Tente não se esforçar demais para ser alguém que você não é, pois isso pode dificultar a construção de conexões genuínas.
+
+Lembre-se de que a solidão e o desejo por amizades são experiências universais. Muitas pessoas passam por isso em algum momento de suas vidas. Com um pouco de esforço e abertura, é possível construir uma rede de amigos e conhecidos que podem enriquecer sua vida."
+8,P024,Solidão,Às vezes vejo grupos de amigos juntos e fico pensando por que não tenho algo parecido.,Modelo C,OpenAI,"É muito humano sentir isso. Ver grupos de amigos pode bater como comparação e dar uma sensação de falta, como se todo mundo tivesse encontrado um “lugar” menos você.
+
+Mas o que a gente vê de fora quase nunca mostra a história inteira. Muitos grupos parecem muito unidos e, por dentro, têm conflitos, distância ou conexões mais superficiais do que aparentam. Ainda assim, isso não tira a dor de querer pertencimento.
+
+Talvez o mais importante aqui seja: isso não significa que há algo errado com você. Às vezes amizade demora a se construir, especialmente quando a vida muda, quando a pessoa é mais reservada, ou quando teve experiências que a fizeram se fechar um pouco.
+
+Você pode se perguntar, sem se julgar:
+- sinto falta de ter mais pessoas ao meu redor, ou de ter vínculos mais profundos?
+- tenho tido oportunidades reais de conhecer gente?
+- existe medo de rejeição, timidez ou cansaço me afastando?
+- que tipo de amizade eu gostaria de construir?
+
+Em vez de pensar em “ter um grupo”, talvez ajude pensar em começar com 1 ou 2 conexões verdadeiras. Muitas amizades sólidas começam assim, aos poucos, e não como aqueles grupos prontos que a gente vê de fora.
+
+Se quiser, posso te ajudar de dois jeitos:
+1. conversar mais sobre esse sentimento e entender de onde ele vem;
+2. pensar em formas práticas de criar mais conexão na sua vida."
+9,P041,Ansiedade,Tenho pensado demais nas coisas que podem dar errado e isso está me deixando inquieto.,Modelo A,Anthropic,"Entendo essa sensação. Ficar preso em cenários negativos pode ser bem exaustivo.
+
+Quero te ajudar a pensar nisso com mais clareza, então me faz algumas perguntas:
+
+**Sobre o que está acontecendo:**
+- Esses pensamentos são sobre algo específico (trabalho, relacionamento, saúde...) ou são mais difusos, sobre ""tudo em geral""?
+- Isso está acontecendo há quanto tempo?
+
+**Uma observação honesta:**
+Existe uma diferença importante entre:
+- **Antecipar problemas reais** → pode ser útil, te prepara
+- **Ruminação** → o pensamento gira em círculos sem chegar a nenhuma conclusão ou ação
+
+O que você sente que está acontecendo com você?
+
+Pergunto porque a abordagem é diferente para cada caso. Às vezes o que parece ansiedade é na verdade um sinal de que você precisa tomar alguma decisão que está evitando."
+9,P041,Ansiedade,Tenho pensado demais nas coisas que podem dar errado e isso está me deixando inquieto.,Modelo B,Meta,"Parece que você está enfrentando um ciclo de pensamentos negativos que podem estar relacionados à ansiedade ou ao excesso de preocupação. Isso é algo comum, mas pode ser desgastante. Aqui estão algumas estratégias que podem ajudar a lidar com esses pensamentos e a reduzir a inquietude:
+
+1. **Reconheça seus pensamentos**: O primeiro passo é reconhecer quando você está tendo pensamentos negativos ou excessivamente preocupados. Ao se dar conta disso, você pode começar a trabalhar neles.
+
+2. **Tente identificar o gatilho**: Às vezes, há um gatilho específico que inicia esses pensamentos. Pode ser um evento, uma conversa ou até mesmo um simples pensamento. Identificar o gatilho pode ajudar a lidar com a raiz do problema.
+
+3. **Pratique a respiração profunda**: A respiração profunda pode ajudar a acalmar a mente e o corpo. Tente respirar fundo, segurando a respiração por alguns segundos antes de exalar lentamente. Repita isso várias vezes.
+
+4. **Faça uma atividade física**: O exercício físico pode ajudar a reduzir a ansiedade e a inquietude. Pode ser algo simples como uma caminhada ou alongamentos.
+
+5. **Desenvolva um pensamento mais realista**: Tente desafiar seus pensamentos negativos perguntando a si mesmo se eles são realmente prováveis de acontecer ou se há outra maneira de ver a situação. Às vezes, reenquadrar os pensamentos pode ajudar a reduzir a ansiedade.
+
+6. **Limite a exposição a notícias ou redes sociais**: Se você percebe que está passando muito tempo consumindo notícias ou redes sociais que o deixam ansioso, tente limitar esse tempo. Estabeleça um horário específico para verificar essas fontes.
+
+7. **Pratique mindfulness ou meditação**: Mindfulness e meditação podem ajudar a manter você ancorado no presente, reduzindo a tendência de se perder em pensamentos ansiosos sobre o futuro. Existem muitos aplicativos e vídeos guiados disponíveis online.
+
+8. **Converse com alguém**: Às vezes, compartilhar seus sentimentos com um amigo, familiar ou profissional pode oferecer uma nova perspectiva e alívio. Não hesite em buscar apoio.
+
+9. **Estabeleça uma rotina**: Ter uma rotina pode proporcionar uma sensação de controle e estabilidade. Tente manter um horário regular para dormir, comer e realizar atividades.
+
+10. **Considere a ajuda profissional**: Se esses sentimentos de inquietude e pensamentos negativos estiverem afetando significativamente sua qualidade de vida, pode ser útil buscar a ajuda de um profissional de saúde mental. Eles podem oferecer estratégias personalizadas e apoio.
+
+Lembre-se, é normal ter dias ruins, mas com as estratégias certas, você pode aprender a gerenciar melhor esses sentimentos."
+9,P041,Ansiedade,Tenho pensado demais nas coisas que podem dar errado e isso está me deixando inquieto.,Modelo C,OpenAI,"Sinto muito que você esteja passando por isso. Ficar preso no “e se der errado?” pode deixar a mente em estado de alerta o tempo todo, e isso é muito desgastante.
+
+Uma forma simples de começar agora:
+
+1. **Pare por um momento e respire**
+   Tente inspirar por 4 segundos, segurar por 4, soltar por 6. Faça isso 5 vezes.
+
+2. **Separe o que é pensamento do que é fato**
+   Pergunte a si mesmo:
+   - “O que eu sei com certeza?”
+   - “O que eu estou apenas imaginando?”
+   - “Isso está acontecendo agora ou é uma possibilidade futura?”
+
+3. **Reduza o horizonte**
+   Em vez de tentar resolver “tudo que pode dar errado”, foque em:
+   - o que está sob seu controle hoje
+   - qual é o próximo passo pequeno e concreto
+
+4. **Escreva a preocupação**
+   Faça duas colunas:
+   - **Posso agir**
+   - **Não posso controlar**
+   
+   Isso ajuda a tirar um pouco do peso da cabeça.
+
+5. **Acalme o corpo**
+   Ansiedade não fica só na mente. Se puder:
+   - beba água
+   - lave o rosto
+   - caminhe por 5 minutos
+   - afaste-se um pouco do celular
+
+Se quiser, posso ficar com você nisso agora. Me diga: **o que exatamente tem passado pela sua cabeça?**
+
+E preciso checar uma coisa importante: quando você diz que está muito inquieto, isso é “só” ansiedade intensa, ou você está pensando em se machucar ou que não vale a pena continuar?"
+10,P042,Ansiedade,Sempre que tenho um compromisso importante começo a imaginar vários problemas antes mesmo de acontecer.,Modelo A,Anthropic,"Isso é muito comum e tem nome: **antecipação ansiosa**.
+
+Seu cérebro está tentando te proteger, ensaiando cenários para você ""estar preparado"". O problema é que ele exagera nos riscos.
+
+---
+
+**O que provavelmente está acontecendo:**
+
+- Você imagina o pior cenário como se fosse o mais provável
+- Isso gera um desconforto real *antes* de qualquer coisa acontecer
+- E às vezes até atrapalha o desempenho no próprio compromisso
+
+---
+
+**Algumas perguntas que podem ajudar quando isso acontece:**
+
+- *""Quantas vezes imaginei o pior e ele realmente aconteceu?""*
+- *""O que eu faria se o problema que imagino realmente ocorresse?""*
+- *""Estou me preparando ou me punindo antecipadamente?""*
+
+---
+
+**O que costuma funcionar:**
+
+- Escrever os medos *(tirar da cabeça costuma diminuir o poder deles)*
+- Focar no que está **sob seu controle** *(preparação real, não imaginação)*
+- Perceber o padrão: **o compromisso passa, e você sobrevive**
+
+---
+
+Isso te paralisa muito ou é mais um desconforto que você consegue lidar? Pergunto porque a intensidade muda bastante o que pode ajudar."
+10,P042,Ansiedade,Sempre que tenho um compromisso importante começo a imaginar vários problemas antes mesmo de acontecer.,Modelo B,OpenAI,"Isso é mais comum do que parece. Quando algo importa pra gente, a mente tenta “se proteger” antecipando tudo o que pode dar errado — só que isso acaba aumentando a ansiedade em vez de ajudar.
+
+O que você descreve parece uma forma de **antecipação ansiosa**: ficar criando cenários negativos antes de um compromisso importante. Não significa que você seja fraco ou incapaz; muitas vezes é só um modo automático do cérebro tentar ganhar controle.
+
+Algumas coisas que podem ajudar:
+
+- **Nomear o que está acontecendo**  
+  Dizer pra si mesmo: “Estou ansioso e minha mente está imaginando problemas” já ajuda a criar certa distância desses pensamentos.
+
+- **Separar possibilidade de probabilidade**  
+  Pergunte: “Isso pode acontecer ou é provável que aconteça?”  
+  Porque a ansiedade costuma tratar possibilidades pequenas como certezas.
+
+- **Focar no que está sob seu controle**  
+  Em vez de tentar prever tudo, pense:  
+  “O que eu posso preparar agora?”  
+  Por exemplo: organizar horário, revisar o que precisa, planejar o trajeto, deixar materiais prontos.
+
+- **Limitar o tempo de preocupação**  
+  Você pode reservar 10–15 minutos para anotar medos e soluções práticas. Depois disso, quando a mente voltar ao assunto, lembrar: “Já pensei nisso, agora volto pro presente.”
+
+- **Acalmar o corpo**  
+  Às vezes o corpo entra em alerta antes da razão. Respirar mais devagar, relaxar os ombros, sentir os pés no chão por 1–2 minutos pode reduzir esse ciclo.
+
+- **Questionar o pior cenário**  
+  Se o pior acontecesse, o que você faria?  
+  Muitas vezes a gente percebe que, embora fosse desconfortável, ainda conseguiria lidar.
+
+Se isso acontece com muita frequência, te desgasta muito ou atrapalha seus compromissos, conversar com um psicólogo pode ajudar bastante. Terapia é muito útil para aprender a interromper esse padrão.
+
+Se quiser, eu posso te ajudar a analisar um compromisso específico e organizar esses pensamentos com você."
+10,P042,Ansiedade,Sempre que tenho um compromisso importante começo a imaginar vários problemas antes mesmo de acontecer.,Modelo C,Meta,"Parece que você está enfrentando um padrão de pensamento conhecido como ""catastrofização"" ou ""pensamento catastrófico"". Isso envolve imaginar os piores cenários possíveis antes que um evento aconteça, o que pode aumentar a ansiedade e o estresse.
+
+Aqui estão algumas estratégias que podem ajudar a lidar com esse tipo de pensamento:
+
+1. **Reconhecer o padrão de pensamento**: O primeiro passo é reconhecer quando você está começando a catastrofizar. Ao perceber que está imaginando cenários negativos extremos, você pode começar a trabalhar para mudar esse padrão.
+
+2. **Questionar os pensamentos**: Pergunte a si mesmo se há evidências reais para apoiar esses pensamentos negativos. Muitas vezes, os cenários que imaginamos são improváveis ou baseados em suposições.
+
+3. **Focar no presente**: Em vez de se preocupar com o que pode acontecer no futuro, tente se concentrar no que você pode controlar no momento presente. Planejar e se preparar para o compromisso pode ajudar a reduzir a ansiedade.
+
+4. **Praticar técnicas de relaxamento**: Técnicas como respiração profunda, meditação ou yoga podem ajudar a reduzir a ansiedade e a promover uma sensação de calma.
+
+5. **Reestruturar pensamentos negativos**: Tente substituir pensamentos catastróficos por outros mais realistas e positivos. Por exemplo, em vez de pensar ""Isso vai ser um desastre"", diga a si mesmo ""Eu estou preparado para isso e vou fazer o meu melhor"".
+
+6. **Procurar apoio**: Conversar com amigos, familiares ou um profissional de saúde mental pode fornecer perspectivas diferentes e apoio emocional.
+
+Lembre-se de que superar o pensamento catastrófico leva tempo e prática. Ser paciente consigo mesmo e persistir nas estratégias escolhidas pode ajudar a reduzir a frequência e a intensidade desses pensamentos ao longo do tempo."
+11,P043,Ansiedade,Estou com dificuldade para relaxar porque minha cabeça fica pensando em várias coisas ao mesmo tempo.,Modelo A,OpenAI,"Entendo. Quando a mente “engata” em vários pensamentos ao mesmo tempo, tentar “parar de pensar” costuma piorar. Em vez disso, o mais útil é dar uma tarefa simples para o corpo e para a atenção.
+
+Tenta isso agora por 2 minutos:
+
+1. **Olha ao redor e nomeia 5 coisas que você vê.**  
+2. **Encosta os pés no chão e pressiona levemente por 10 segundos.**  
+3. **Respira assim 5 vezes:**  
+   - puxa o ar por **4**  
+   - solta devagar por **6**  
+4. **Escolhe só um pensamento** que está mais alto e completa a frase:  
+   - “O que está me ocupando agora é…”  
+   Não precisa resolver, só nomear.
+
+Se quiser algo ainda mais direto, repete mentalmente:
+
+- “Eu não preciso resolver tudo agora.”
+- “Posso pensar em uma coisa de cada vez.”
+- “Neste momento, estou seguro(a).”
+
+Se sua cabeça estiver muito acelerada, pode ajudar fazer um “descarrego” rápido:
+- pega papel ou celular
+- escreve **tudo** que está vindo
+- depois marca só:
+  - **o que posso fazer hoje**
+  - **o que fica para depois**
+  - **o que não depende de mim**
+
+Se quiser, eu posso ficar com você nisso e te guiar por um exercício curto de relaxamento de 1 minuto agora."
+11,P043,Ansiedade,Estou com dificuldade para relaxar porque minha cabeça fica pensando em várias coisas ao mesmo tempo.,Modelo B,Anthropic,"Isso é muito comum e pode ser bastante exaustivo. Vamos pensar juntos sobre isso.
+
+## O que acontece na sua cabeça
+
+Quando a mente não para, geralmente é porque está tentando **resolver algo, antecipar riscos ou processar emoções** que não tiveram espaço durante o dia.
+
+---
+
+## Algumas perguntas para entender melhor
+
+- Esses pensamentos são sobre **preocupações específicas** (trabalho, relacionamentos, dinheiro) ou são mais **aleatórios e dispersos**?
+- Isso acontece mais em **momentos de quietude** (antes de dormir, por exemplo) ou o tempo todo?
+- Você sente que esses pensamentos têm um tom de **ansiedade** ou são mais como uma ""lista mental"" sem fim?
+
+---
+
+## O que costuma ajudar
+
+**Para a mente acelerada:**
+- Escrever o que está na cabeça *(tirar do loop mental)*
+- Focar em algo concreto e simples, como a respiração ou sons ao redor
+- Não tentar *forçar* o relaxamento, pois isso gera mais tensão
+
+**Para o padrão geral:**
+- Criar momentos de ""descarga"" durante o dia, não só à noite
+- Questionar se há algo específico que você está evitando pensar
+
+---
+
+O que ressoa mais com o que você está sentindo? Posso te ajudar de forma mais direcionada se souber um pouco mais sobre o que está passando."
+11,P043,Ansiedade,Estou com dificuldade para relaxar porque minha cabeça fica pensando em várias coisas ao mesmo tempo.,Modelo C,Meta,"A mente agitada pode ser muito desgastante. Algumas técnicas que podem ajudar incluem a prática de meditação, exercícios de respiração profunda e atividades físicas regulares. A meditação mindfulness, em particular, pode ser útil para treinar a mente a focar no presente e reduzir pensamentos dispersos. Além disso, manter um diário pode ajudar a organizar os pensamentos e aliviar a mente. Experimentar diferentes métodos pode ajudar a encontrar o que funciona melhor para você."
+12,P044,Ansiedade,Às vezes fico preocupado com coisas pequenas por muito mais tempo do que gostaria.,Modelo A,Meta,"Preocupar-se com coisas pequenas pode ser desgastante e afetar negativamente a qualidade de vida. Aqui estão algumas estratégias que podem ajudar a lidar com essa tendência:
+
+1. **Reconheça e aceite seus pensamentos**: O primeiro passo para lidar com a preocupação excessiva é reconhecer quando ela está acontecendo. Aceite que esses pensamentos estão presentes sem julgar a si mesmo por tê-los.
+
+2. **Identifique o gatilho**: Tente entender o que desencadeia essas preocupações. Às vezes, identificar a causa raiz pode ajudar a abordá-la de forma mais eficaz.
+
+3. **Pratique a mindfulness**: A mindfulness pode ajudar a manter você ancorado no presente, reduzindo a tendência de se perder em preocupações sobre o futuro ou passado. Praticar mindfulness regularmente pode ajudar a desenvolver essa habilidade.
+
+4. **Use técnicas de relaxamento**: Técnicas como respiração profunda, meditação, yoga ou até mesmo um simples alongamento podem ajudar a reduzir o estresse e a ansiedade associados à preocupação excessiva.
+
+5. **Estabeleça um ""tempo de preocupação""**: Alocar um tempo específico do dia para se preocupar pode parecer contraintuitivo, mas pode ser eficaz. Durante esse tempo, permita-se pensar sobre suas preocupações, e quando o tempo acabar, tente deixar essas preocupações de lado.
+
+6. **Desenvolva uma perspectiva mais ampla**: Tente ver as coisas pequenas no contexto mais amplo da sua vida. Pergunte a si mesmo se, no longo prazo, a coisa que está preocupando você realmente terá um impacto significativo.
+
+7. **Pratique a gratidão**: Focar nas coisas pelas quais você é grato pode ajudar a mudar a perspectiva e reduzir a tendência de se preocupar com coisas pequenas.
+
+8. **Busque apoio**: Se a preocupação excessiva estiver afetando significativamente sua vida, pode ser útil conversar com um profissional de saúde mental. Eles podem oferecer estratégias personalizadas e apoio.
+
+9. **Desenvolva habilidades de resolução de problemas**: Às vezes, a preocupação surge porque nos sentimos sobrecarregados ou incapazes de lidar com uma situação. Desenvolver habilidades para resolver problemas pode ajudar a reduzir a preocupação.
+
+10. **Cuide de si mesmo**: Manter um estilo de vida saudável, incluindo exercícios regulares, uma dieta equilibrada e sono adequado, pode ajudar a melhorar a resiliência e reduzir a tendência de se preocupar excessivamente.
+
+Lembre-se de que superar a tendência de se preocupar excessivamente com coisas pequenas leva tempo e prática. Seja paciente consigo mesmo e celebre os pequenos progressos ao longo do caminho."
+12,P044,Ansiedade,Às vezes fico preocupado com coisas pequenas por muito mais tempo do que gostaria.,Modelo B,Anthropic,"Isso é algo muito humano e comum. Mas vale pensar um pouco mais sobre isso.
+
+## Algumas perguntas para refletir:
+
+**Sobre o padrão:**
+- Essas ""coisas pequenas"" têm algo em comum? (opinião dos outros, erros que cometeu, incertezas?)
+- Quanto tempo ""muito mais tempo"" representa - horas, dias?
+
+**Sobre o que acontece:**
+- Você percebe que está ruminando *enquanto* acontece, ou só depois?
+- A preocupação costuma resolver algo, ou só gira em círculos?
+
+---
+
+Preocupação prolongada com coisas pequenas muitas vezes **não é sobre a coisa em si**, mas pode indicar:
+
+- Ansiedade geral que ""gruda"" em qualquer gatilho
+- Perfeccionismo ou medo de julgamento
+- Uma mente que precisa de mais descanso ou estímulo
+- Algo maior que está sendo evitado
+
+---
+
+O fato de você notar isso e se incomodar com o padrão já é importante - significa que você tem alguma distância crítica do pensamento.
+
+**O que você já tentou fazer quando isso acontece?**"
+12,P044,Ansiedade,Às vezes fico preocupado com coisas pequenas por muito mais tempo do que gostaria.,Modelo C,OpenAI,"Isso é mais comum do que parece. Às vezes a mente “agarra” uma preocupação pequena e trata como se fosse grande, mesmo quando a gente sabe racionalmente que não precisava.
+
+Pode ajudar pensar em 3 passos simples:
+
+1. **Dar nome ao que está acontecendo**  
+   “Estou preso numa preocupação”, em vez de “isso é um problema enorme”.
+
+2. **Perguntar: isso exige ação ou só está pedindo atenção?**  
+   - Se exige ação: escolha um passo pequeno e concreto.  
+   - Se não exige: tente adiar a ruminação, dizendo “vou pensar nisso mais tarde”.
+
+3. **Trazer o corpo de volta ao presente**  
+   Respirar mais devagar, levantar, beber água, caminhar 2 minutos, ou notar 5 coisas ao seu redor.
+
+Se isso acontece com frequência, também pode ser útil observar:
+- quais tipos de pensamentos te prendem mais,
+- em que horários isso piora,
+- se você já está cansado, ansioso ou sobrecarregado.
+
+E, se essas preocupações começarem a atrapalhar muito seu sono, trabalho, relações ou bem-estar, conversar com um psicólogo pode ajudar bastante.
+
+Se quiser, posso te ajudar a entender **como diferenciar uma preocupação útil de uma preocupação que só fica girando**."
+13,P061,Frustração,Estudei bastante para uma prova e mesmo assim minha nota foi pior do que eu esperava.,Modelo A,OpenAI,"Sinto muito. Isso é muito frustrante, ainda mais quando você realmente se esforçou.
+
+Uma nota ruim nem sempre significa que você “não sabe” ou que estudou “errado” por completo. Às vezes acontece por vários motivos:
+- o tipo de cobrança da prova era diferente do que você praticou;
+- deu branco, ansiedade ou cansaço;
+- você estudou bastante, mas de um jeito pouco eficiente;
+- focou em conteúdo que caiu menos do que esperava.
+
+O mais importante agora é separar duas coisas:
+1. **o resultado dessa prova**
+2. **o seu valor e a sua capacidade**
+
+Eles não são a mesma coisa.
+
+Se quiser, pode ser útil fazer uma revisão mais objetiva:
+- **O que exatamente deu errado?** conteúdo, interpretação, tempo, nervosismo?
+- **Como você estudou?** releu, fez resumo, exercícios, simulados?
+- **Havia sinais antes da prova?** dificuldade em lembrar sem consultar, erros repetidos, lentidão?
+
+Uma forma melhor de estudar, muitas vezes, inclui:
+- **resolver questões** em vez de só reler;
+- **recuperação ativa**: tentar lembrar sem olhar;
+- **revisões espaçadas** ao longo dos dias;
+- **simular prova com tempo**;
+- **corrigir erros por tipo**, não só ver a resposta certa.
+
+E, emocionalmente: deixe-se ficar chateado um pouco, mas tente não transformar isso em “eu sou incapaz”. O mais honesto talvez seja: **“essa estratégia ou esse dia não funcionou como eu queria”**.
+
+Se você quiser, eu posso te ajudar a entender **por que isso aconteceu** e montar um plano melhor de estudo para a próxima prova."
+13,P061,Frustração,Estudei bastante para uma prova e mesmo assim minha nota foi pior do que eu esperava.,Modelo B,Anthropic,"Que situação frustrante! É muito desmotivador quando o esforço não se reflete no resultado esperado. 😕
+
+Posso te ajudar a pensar nisso de algumas formas:
+
+## Para entender o que aconteceu
+- O que você achou mais difícil na prova?
+- A forma como estudou foi diferente do que a prova cobrou?
+- Teve algum fator externo (nervosismo, cansaço, tempo)?
+
+## Para refletir sem se punir
+- ""Estudei bastante"" e ""nota ruim"" não significa que você é incapaz
+- Pode ser uma **questão de método**, não de esforço
+- Uma prova não define seu aprendizado real
+
+## O que pode ajudar
+- Revisar a prova para entender os erros
+- Conversar com o professor sobre o que esperavam
+- Ajustar a estratégia de estudo para a próxima vez
+
+---
+
+Como você está se sentindo agora? Quer desabafar, ou prefere pensar em como melhorar para a próxima?"
+13,P061,Frustração,Estudei bastante para uma prova e mesmo assim minha nota foi pior do que eu esperava.,Modelo C,Meta,"Sentir-se desapontado após uma prova, mesmo tendo estudado bastante, é uma experiência comum. Existem várias razões pelas quais isso pode acontecer. Aqui estão algumas possíveis explicações e sugestões para lidar com a situação:
+
+1. **Expectativas Elevadas**: Às vezes, nossas expectativas são muito altas, e a realidade não atende a essas expectativas. É importante ter uma noção realista do seu desempenho.
+
+2. **Ansiedade ou Estresse**: O estresse e a ansiedade durante a prova podem afetar negativamente seu desempenho. Se você estava muito nervoso, isso pode ter impactado sua capacidade de responder às questões de forma eficaz.
+
+3. **Método de Estudo**: Embora você tenha estudado bastante, o método de estudo pode não ter sido o mais eficaz. Revisar diferentes métodos de estudo pode ajudar a melhorar seu desempenho futuro.
+
+4. **Conteúdo da Prova**: Se a prova cobriu tópicos que você não dominava tão bem quanto pensava, ou se as questões foram formuladas de uma maneira inesperada, isso pode ter contribuído para um resultado pior do que o esperado.
+
+5. **Falta de Prática em Condições Simulares**: Às vezes, estudar não é suficiente; praticar fazendo simulados ou exercícios sob condições similares às da prova real pode ajudar a preparar melhor.
+
+### O que fazer agora?
+
+- **Reflita sobre o que aconteceu**: Tente entender o que pode ter dado errado. Foi o conteúdo, o método de estudo, o nervosismo?
+  
+- **Aprenda com a experiência**: Use essa experiência como uma oportunidade de aprendizado. Identifique áreas para melhoria e ajuste seu método de estudo conforme necessário.
+
+- **Busque feedback**: Se possível, converse com seu professor ou instrutor sobre sua prova. Eles podem oferecer insights valiosos sobre onde você errou e como pode melhorar.
+
+- **Planeje para o futuro**: Desenvolva um plano para melhorar seu desempenho em provas futuras. Isso pode incluir mudar seu método de estudo, praticar sob condições de prova, ou trabalhar na gestão do estresse.
+
+- **Cuide de si mesmo**: É importante não se deixar abater por um resultado desapontador. Cuide de sua saúde mental e física, e lembre-se de que um resultado não define seu valor ou capacidade.
+
+Lembre-se, um resultado desapontador em uma prova não é o fim do mundo. É uma oportunidade para aprender, crescer e se preparar melhor para o futuro."
+14,P062,Frustração,Passei muito tempo tentando fazer uma coisa funcionar e no final não deu certo.,Modelo A,Anthropic,"Entendo essa frustração! 😔
+
+É muito desgastante investir tempo e energia em algo e não conseguir o resultado esperado.
+
+Quer me contar **o que estava tentando fazer**? Talvez eu possa ajudar a encontrar uma solução ou uma alternativa! 💡"
+14,P062,Frustração,Passei muito tempo tentando fazer uma coisa funcionar e no final não deu certo.,Modelo B,Meta,"Sinto muito que as coisas não tenham dado certo para você. É frustrante quando investimos tempo e esforço em algo e não alcançamos o resultado desejado. Às vezes, esses momentos podem ser desanimadores, mas também são oportunidades valiosas para aprender e crescer.
+
+Aqui estão algumas sugestões que podem ajudar a lidar com a situação e, quem sabe, encontrar uma nova abordagem para o que você está tentando fazer:
+
+1. **Tire um tempo**: Às vezes, afastar-se um pouco da tarefa pode ajudar a clarear a mente. Retomar o problema com uma perspectiva fresca pode ser muito útil.
+
+2. **Reavalie o que foi feito**: Tente analisar o que você fez até agora. Identificar os passos que deu e onde as coisas podem ter dado errado pode oferecer insights valiosos.
+
+3. **Procure ajuda ou orientação**: Pode ser útil buscar ajuda de alguém com experiência na área. Isso pode ser um colega, um mentor, um fórum online, ou até mesmo um profissional.
+
+4. **Aprenda com o erro**: Em vez de ver o que aconteceu como um fracasso, tente ver como uma oportunidade de aprendizado. O que você aprendeu ao longo do caminho? Como isso pode ser aplicado no futuro?
+
+5. **Defina um novo plano**: Com base no que você aprendeu, tente criar um novo plano de ação. Isso pode envolver ajustar sua abordagem, definir metas mais realistas, ou até mesmo mudar completamente a estratégia.
+
+6. **Mantenha a motivação**: Lembre-se de por que você começou a trabalhar nessa coisa em primeiro lugar. Manter o foco nos objetivos e lembrar dos motivos pode ajudar a manter a motivação.
+
+7. **Celebre os pequenos sucessos**: Mesmo que as coisas não tenham dado certo no final, provavelmente houve momentos ou aspectos ao longo do caminho que foram bem-sucedidos. Celebrar esses pequenos sucessos pode ajudar a manter uma perspectiva positiva.
+
+Lembre-se, o ""fracasso"" é uma parte natural do processo de aprendizado e crescimento. Muitas vezes, as lições mais valiosas vêm de experiências que não saíram como planejado. Espero que essas sugestões sejam úteis e que você encontre uma maneira de seguir em frente de forma positiva."
+14,P062,Frustração,Passei muito tempo tentando fazer uma coisa funcionar e no final não deu certo.,Modelo C,OpenAI,"Sinto muito. Isso desgasta mesmo, ainda mais quando você investe tempo e expectativa.
+
+Quer me contar o que era? Posso te ajudar de dois jeitos:
+
+1. **Desabafar** — eu só te escuto.
+2. **Tentar resolver** — você me explica o que tentou e eu ajudo a encontrar outra saída.
+
+Se quiser, começa com uma frase simples:
+- “Eu estava tentando…”
+- “O problema é que…”
+- “O que mais me frustrou foi…”"
+15,P063,Frustração,Fiquei chateado porque me esforcei em um projeto e quase ninguém percebeu.,Modelo A,OpenAI,"Sinto muito. Isso dói mesmo — principalmente quando você se dedicou de verdade e parecia importante para você.
+
+É muito frustrante colocar tempo, energia e cuidado em algo e sentir que passou despercebido. Isso pode dar uma sensação de invisibilidade, de “pra que eu me esforcei tanto?”. E faz sentido você estar chateado.
+
+Mas o fato de quase ninguém ter percebido não significa que seu esforço não teve valor. Às vezes as pessoas simplesmente não enxergam tudo o que existe por trás de um resultado, ou estão distraídas, ou não sabem reconhecer bem. Isso fala mais sobre a percepção delas do que sobre o mérito do que você fez.
+
+Se quiser, você pode tentar uma destas coisas:
+- falar com alguém de confiança sobre como se sentiu;
+- pedir feedback direto para quem viu o projeto;
+- registrar para si mesmo do que você se orgulha nesse trabalho;
+- pensar se vale a pena tornar seu esforço mais visível da próxima vez.
+
+Se quiser, eu também posso:
+- te ajudar a desabafar;
+- te ajudar a escrever uma mensagem sobre isso sem parecer cobrança;
+- ou te ajudar a enxergar formas de fazer seu trabalho ser mais notado na próxima vez.
+
+Se quiser, me conta que projeto foi esse."
+15,P063,Frustração,Fiquei chateado porque me esforcei em um projeto e quase ninguém percebeu.,Modelo B,Anthropic,"Entendo essa frustração. É bem difícil quando você coloca energia e dedicação em algo e sente que passou despercebido.
+
+Posso te perguntar algumas coisas para entender melhor?
+
+**Sobre o que aconteceu:**
+- Foi um projeto de trabalho, escola, pessoal?
+- ""Quase ninguém percebeu"" significa falta de feedback, de reconhecimento, ou as pessoas literalmente não viram?
+
+**Porque isso importa pensar:**
+
+Às vezes a chateação vem de coisas diferentes:
+- Querer **reconhecimento** pelo esforço
+- Sentir que o **resultado** não foi valorizado
+- Perceber que suas **expectativas** eram diferentes da realidade
+- Sentir que as pessoas **não ligam** para o que você faz
+
+Cada uma dessas tem um peso diferente.
+
+O que você acha que te incomoda mais nessa situação?"
+15,P063,Frustração,Fiquei chateado porque me esforcei em um projeto e quase ninguém percebeu.,Modelo C,Meta,"Sinto muito que você esteja se sentindo assim. É comum sentir frustração quando não recebemos o reconhecimento que achamos que merecemos, especialmente quando investimos muito esforço em algo.
+
+Aqui estão algumas coisas que podem ajudar a lidar com essa sensação:
+
+1. **Reconheça seu próprio esforço**: Embora os outros possam não ter notado, você sabe o quanto trabalhou. Reconheça e valorize seu próprio esforço. Isso é algo que ninguém pode tirar de você.
+
+2. **Comunique-se**: Se você se sente que seu trabalho não foi reconhecido, pode ser útil conversar com as pessoas envolvidas. Explique o que você fez e como se sentiu. Às vezes, as pessoas simplesmente não notam ou não entendem o quanto algo foi trabalhoso.
+
+3. **Perspectiva**: Tente ver a situação de diferentes ângulos. Às vezes, o que parece importante para nós pode não ser tão visível ou relevante para os outros. Isso não significa que seu esforço foi em vão.
+
+4. **Celebre seus sucessos**: Mesmo que os outros não tenham notado, você pode celebrar seus próprios sucessos. Isso pode ajudar a manter sua motivação e autoestima.
+
+5. **Aprenda e cresça**: Use essa experiência como uma oportunidade para aprender. Pergunte a si mesmo o que poderia ter feito diferente para que seu esforço fosse mais notado. Isso pode ajudar a melhorar suas habilidades de comunicação e visibilidade em futuros projetos.
+
+6. **Busque feedback construtivo**: Se possível, peça feedback de pessoas que você respeita. Eles podem oferecer insights valiosos sobre como você pode melhorar ou como seu trabalho pode ser mais reconhecido no futuro.
+
+7. **Cuide de si**: Por fim, não se esqueça de cuidar de sua saúde mental e emocional. Frustrações como essa são comuns, e é importante encontrar maneiras saudáveis de lidar com elas, como praticar atividades que você gosta, passar tempo com pessoas queridas, ou simplesmente descansar.
+
+Lembre-se, o valor do seu trabalho não é definido apenas pelo reconhecimento dos outros. Você tem valor e merece ser reconhecido, não apenas pelos outros, mas por si mesmo."
+16,P064,Frustração,Planejei meu dia inteiro e no final quase nada saiu como eu queria.,Modelo A,OpenAI,"Isso frustra mesmo. Você investe energia pra organizar tudo e, no fim, parece que o dia “te atropelou”.
+
+Quando isso acontece, geralmente não significa que você foi incapaz ou desleixado — muitas vezes significa só que o plano estava mais rígido do que a realidade permitiu, ou que apareceram coisas que consumiram sua energia e atenção.
+
+Talvez ajude olhar pra isso por 3 perguntas simples:
+
+1. **O que realmente atrapalhou?**  
+   Foi imprevisto, cansaço, procrastinação, ansiedade, interrupções, ou tarefas grandes demais?
+
+2. **O que você conseguiu fazer, mesmo que pouco?**  
+   Às vezes o dia parece “perdido”, mas ainda teve alguma coisa feita.
+
+3. **O plano era possível pro dia que você tinha?**  
+   Às vezes a gente planeja como se fosse ter foco, energia e tempo perfeitos.
+
+Se quiser, pra hoje ainda, você pode tentar uma “versão de recuperação”:
+- escolher **1 tarefa importante**
+- escolher **1 tarefa pequena e fácil**
+- deixar o resto para replanejar sem culpa
+
+Em vez de pensar “deu tudo errado”, pode ser mais justo pensar:
+**“Meu planejamento não combinou com o dia real que eu tive.”**
+
+Se quiser, eu posso te ajudar a:
+- entender por que o plano falhou,
+- reorganizar o resto do dia,
+- ou montar um jeito mais realista de planejar amanhã."
+16,P064,Frustração,Planejei meu dia inteiro e no final quase nada saiu como eu queria.,Modelo B,Meta,"**Entendendo a Frustração**
+
+Sinto muito que seu dia não tenha saído como você havia planejado. É comum sentir frustração e desânimo quando as coisas não acontecem como esperado.
+
+**Analisando o que Aconteceu**
+
+Vamos tentar entender o que pode ter acontecido. Aqui estão algumas perguntas para refletir:
+
+*   Você planejou seu dia de forma realista? Considerou possíveis imprevistos ou atrasos?
+*   Houve algum evento ou situação inesperada que afetou seus planos?
+*   Você teve tempo suficiente para realizar todas as tarefas que havia planejado?
+
+**Lições Aprendidas**
+
+Embora seu dia não tenha sido como você queria, há sempre algo a aprender com a experiência. Aqui estão algumas lições que você pode levar em consideração:
+
+1.  **Seja flexível**: É importante ser flexível e adaptar-se às mudanças. Isso pode ajudar a reduzir o estresse e a frustração.
+2.  **Priorize**: Identifique as tarefas mais importantes e priorize-as. Isso pode ajudar a garantir que você realize as coisas mais importantes, mesmo que outras coisas não sejam feitas.
+3.  **Deixe espaço para imprevistos**: Sempre deixe um pouco de espaço em seu planejamento para imprevistos ou atrasos. Isso pode ajudar a reduzir o estresse e a frustração.
+
+**O que Fazer Agora**
+
+Agora que o dia já passou, aqui estão algumas sugestões para você:
+
+*   **Reflita sobre o que aconteceu**: Tente entender o que aconteceu e o que você pode fazer diferente da próxima vez.
+*   **Planeje para amanhã**: Use a experiência de hoje para planejar melhor o seu dia de amanhã.
+*   **Cuide de si mesmo**: Lembre-se de cuidar de si mesmo e de não se estressar demais com as coisas que não saíram como você queria.
+
+**Conclusão**
+
+Espero que essas sugestões tenham ajudado. Lembre-se de que é normal ter dias que não saem como planejado, e que há sempre algo a aprender com a experiência. Se precisar de mais ajuda ou tiver alguma outra pergunta, estou aqui para ajudar."
+16,P064,Frustração,Planejei meu dia inteiro e no final quase nada saiu como eu queria.,Modelo C,Anthropic,"Que frustração real isso deve ser. Planejar tudo e ver as coisas escaparem do controle é desgastante.
+
+Posso te perguntar uma coisa? **O que aconteceu?** Foi tudo de uma vez, ou foram pequenas coisas se acumulando ao longo do dia?"
+17,P081,Estresse,Tenho várias tarefas para terminar esta semana e estou começando a me sentir sobrecarregado.,Modelo A,Anthropic,"Entendo essa sensação - quando as tarefas se acumulam, pode parecer difícil saber por onde começar.
+
+Deixa eu te fazer algumas perguntas para ajudar melhor:
+
+**Sobre a situação:**
+- Quantas tarefas aproximadamente você tem?
+- Todas têm o mesmo prazo ou prazos diferentes?
+- Alguma delas depende de outra pessoa?
+
+**Sobre o que está te travando:**
+- É a quantidade de tarefas?
+- A dificuldade de alguma delas?
+- Dificuldade de concentração?
+- Ou simplesmente não saber por onde começar?
+
+---
+
+Uma coisa que costuma ajudar **imediatamente** é simplesmente **colocar tudo no papel** - listar cada tarefa. Isso tira o peso mental de ""guardar tudo na cabeça"" e geralmente a situação parece mais gerenciável do que parecia.
+
+Me conta mais sobre o que está acontecendo. 😊"
+17,P081,Estresse,Tenho várias tarefas para terminar esta semana e estou começando a me sentir sobrecarregado.,Modelo B,Meta,"Sentir-se sobrecarregado com muitas tarefas é comum, especialmente quando há prazos apertados ou quando as responsabilidades se acumulam. Aqui estão algumas estratégias que podem ajudar a gerenciar melhor o seu tempo e reduzir o estresse:
+
+1. **Liste todas as suas tarefas**: Comece fazendo uma lista de tudo o que precisa ser feito. Isso ajuda a ter uma visão clara do que está pendente.
+
+2. **Priorize as tarefas**: Identifique quais tarefas são mais importantes ou urgentes. Use a técnica Eisenhower para classificar as tarefas em quatro categorias: urgente e importante, importante mas não urgente, urgente mas não importante, e nem urgente nem importante.
+
+3. **Divida as tarefas grandes em menores**: Se você tiver tarefas muito grandes ou complexas, divida-as em etapas menores e mais gerenciáveis. Isso pode tornar o trabalho menos intimidante.
+
+4. **Crie um cronograma**: Planeje seu dia ou semana, alocando tempo específico para cada tarefa. Certifique-se de incluir pausas para descanso e atividades de lazer.
+
+5. **Aprenda a dizer ""não""**: Se possível, evite assumir novas tarefas ou responsabilidades que possam aumentar sua carga de trabalho. Seja honesto sobre sua capacidade atual.
+
+6. **Use ferramentas de produtividade**: Existem muitas ferramentas e aplicativos que podem ajudar a organizar suas tarefas, como listas de tarefas, calendários digitais e aplicativos de gerenciamento de tempo.
+
+7. **Delegue quando possível**: Se você trabalha em equipe ou tem colegas que podem ajudar, considere delegar tarefas que outros possam realizar.
+
+8. **Cuide de si mesmo**: O estresse pode afetar sua saúde e produtividade. Certifique-se de dormir bem, comer de forma saudável e fazer exercícios regularmente.
+
+9. **Revisite e ajuste**: Ao longo da semana, revise seu progresso e ajuste seu plano conforme necessário. Algumas tarefas podem levar mais tempo do que o esperado, então esteja preparado para fazer ajustes.
+
+10. **Peça ajuda se necessário**: Se o estresse estiver afetando significativamente sua vida, considere falar com um profissional de saúde mental. Eles podem oferecer estratégias adicionais para lidar com o estresse e a sobrecarga.
+
+Lembre-se, gerenciar o tempo e as tarefas de forma eficaz é uma habilidade que pode ser desenvolvida com prática. Com o tempo, você se tornará mais eficiente em lidar com múltiplas tarefas e prazos."
+17,P081,Estresse,Tenho várias tarefas para terminar esta semana e estou começando a me sentir sobrecarregado.,Modelo C,OpenAI,"Sinto muito que você esteja se sentindo assim. Quando as tarefas se acumulam, a sensação de sobrecarga pode crescer rápido — mas dá para recuperar um pouco de controle passo a passo.
+
+Vamos simplificar agora:
+
+### 1. Faça um “despejo mental”
+Pegue papel ou abra uma nota e escreva **tudo** o que você precisa terminar esta semana. Sem organizar ainda, só tirar da cabeça.
+
+### 2. Marque 3 categorias
+Ao lado de cada tarefa, coloque:
+- **Urgente** = precisa ser feita logo
+- **Importante** = tem impacto grande
+- **Pode esperar** = não precisa ser agora
+
+### 3. Escolha só 3 prioridades de hoje
+Não tente resolver tudo hoje. Pergunte:
+- O que vence primeiro?
+- O que gera mais problema se eu adiar?
+- O que, se eu concluir, já vai me aliviar bastante?
+
+### 4. Quebre a primeira tarefa em passos pequenos
+Em vez de “terminar relatório”, transforme em:
+- abrir arquivo
+- revisar seção 1
+- escrever introdução
+- corrigir números
+- enviar versão
+
+Quando a mente está sobrecarregada, tarefas pequenas parecem mais possíveis.
+
+### 5. Use blocos curtos
+Experimente:
+- **25 minutos focado**
+- **5 minutos de pausa**
+Repita 2 ou 3 vezes. Isso ajuda a evitar travar.
+
+### 6. Reduza a pressão
+Se puder, pergunte:
+- Existe algo que posso delegar?
+- Posso entregar uma versão “boa o suficiente” em vez de perfeita?
+- Posso avisar alguém com antecedência se um prazo estiver apertado?
+
+### 7. Faça uma pausa rápida agora
+Antes de continuar, tente isso:
+- solte os ombros
+- inspire por 4 segundos
+- expire por 6 segundos
+- repita 5 vezes
+
+Às vezes o corpo precisa desacelerar para a cabeça organizar.
+
+Se você quiser, eu posso te ajudar **a montar um plano para esta semana agora**.  
+Se me mandar sua lista de tarefas com prazos, eu organizo em ordem de prioridade com você."
+18,P082,Estresse,Meu dia está muito corrido e sinto que não estou conseguindo parar nem por alguns minutos.,Modelo A,Meta,"Sinto muito que você esteja se sentindo sobrecarregado e sem tempo para parar. Isso é muito comum, especialmente em dias corridos. Aqui estão algumas sugestões que podem ajudar:
+
+1.  **Respiração profunda**: Tente parar por alguns segundos e fazer algumas respirações profundas. Isso pode ajudar a acalmar sua mente e corpo.
+2.  **Pequenas pausas**: Tente fazer pequenas pausas ao longo do dia, mesmo que sejam de apenas 1-2 minutos. Você pode se levantar da cadeira, esticar o corpo ou fazer alguns alongamentos rápidos.
+3.  **Priorize**: Faça uma lista das tarefas que você precisa realizar e priorize as mais importantes. Isso pode ajudar a reduzir a sensação de sobrecarga e dar mais foco ao que realmente precisa ser feito.
+4.  **Delegue tarefas**: Se possível, delegue tarefas para outras pessoas para aliviar um pouco da carga de trabalho.
+5.  **Cuide de si**: Lembre-se de que você precisa se cuidar também. Tente encontrar tempo para fazer algo que você goste, como ler um livro, ouvir música ou fazer uma caminhada curta.
+
+Lembre-se de que é importante cuidar de si mesmo, mesmo nos dias mais corridos. Espero que essas sugestões ajudem a tornar seu dia um pouco mais gerenciável."
+18,P082,Estresse,Meu dia está muito corrido e sinto que não estou conseguindo parar nem por alguns minutos.,Modelo B,OpenAI,"Parece bem pesado. Quando o dia fica assim, às vezes o objetivo não é “relaxar de verdade”, mas só reduzir a rotação por 1 ou 2 minutos.
+
+Tenta uma dessas agora, sem precisar parar tudo:
+
+1. **Respiração curta**
+   - Inspire por 4
+   - Solte por 6
+   - Repita 5 vezes
+
+2. **Pausa física**
+   - Solte os ombros
+   - Desencoste a língua do céu da boca
+   - Afrouxe a mandíbula
+   - Faça uma exalação longa
+
+3. **Aterramento rápido**
+   - Olhe ao redor e nomeie:
+     - 3 coisas que vê
+     - 2 coisas que escuta
+     - 1 sensação no corpo
+
+4. **Pergunta simples**
+   - “Qual é a próxima única coisa que eu preciso fazer?”
+   Isso ajuda a sair da sensação de avalanche.
+
+Se quiser, eu também posso te ajudar de um jeito mais prático agora:
+- organizar o resto do seu dia em 3 prioridades, ou
+- te guiar em uma pausa de 60 segundos aqui mesmo."
+18,P082,Estresse,Meu dia está muito corrido e sinto que não estou conseguindo parar nem por alguns minutos.,Modelo C,Anthropic,"Entendo essa sensação – quando o dia acelera assim, parece que você está sempre atrás, sem conseguir respirar.
+
+Posso te perguntar uma coisa?
+
+**O que está deixando o dia tão corrido hoje?** É uma quantidade grande de tarefas, interrupções, pressão externa... ou é mais uma sensação interna de que não pode parar?
+
+Pergunto porque às vezes o problema é o volume de coisas, e às vezes é a relação que a gente tem com o ritmo – e cada um pede uma resposta diferente."
+19,P083,Estresse,"Estou tentando conciliar estudo, trabalho e vida pessoal e está ficando cansativo.",Modelo A,Meta,"Conciliar estudo, trabalho e vida pessoal pode ser um grande desafio. Aqui estão algumas dicas que podem ajudar a tornar essa tarefa mais gerenciável:
+
+1. **Crie um cronograma**: Planeje suas atividades diárias e semanais, incluindo tempo para estudo, trabalho, lazer e descanso. Isso ajudará a visualizar melhor como você está alocando seu tempo.
+
+2. **Priorize**: Identifique o que é mais importante para você em cada área da sua vida e priorize essas atividades. Isso pode significar sacrificar algumas coisas menos importantes para ter tempo para as mais significativas.
+
+3. **Defina metas claras**: Estabeleça metas específicas para o seu estudo, trabalho e vida pessoal. Isso ajudará a manter o foco e a motivação.
+
+4. **Aprenda a dizer ""não""**: Não é possível fazer tudo ao mesmo tempo. Aprender a dizer ""não"" a compromissos que não são essenciais pode ajudar a reduzir o estresse e a sobrecarga.
+
+5. **Cuide de si mesmo**: O autocuidado é fundamental. Certifique-se de ter tempo para atividades que promovam seu bem-estar físico e mental, como exercícios, meditação ou hobbies.
+
+6. **Use tecnologia a seu favor**: Existem muitos aplicativos e ferramentas que podem ajudar a organizar seu tempo, como calendários, aplicativos de produtividade e lembretes.
+
+7. **Busque apoio**: Não hesite em pedir ajuda quando necessário. Isso pode incluir amigos, familiares ou colegas de trabalho. Às vezes, compartilhar responsabilidades ou obter apoio emocional pode fazer uma grande diferença.
+
+8. **Seja flexível**: A vida é imprevisível, e planos podem mudar. Esteja preparado para ajustar seu cronograma conforme necessário.
+
+9. **Tire pausas**: É importante descansar e se permitir momentos de lazer. Pausas podem ajudar a recarregar as energias e melhorar a produtividade.
+
+10. **Reavalie regularmente**: Periodicamente, reavalie suas prioridades e o uso do seu tempo. Isso pode ajudar a identificar áreas onde você pode fazer ajustes para melhorar o equilíbrio entre estudo, trabalho e vida pessoal.
+
+Lembre-se, encontrar um equilíbrio perfeito é um processo contínuo e pode requerer ajustes ao longo do tempo. Seja paciente consigo mesmo e celebre os pequenos sucessos ao longo do caminho."
+19,P083,Estresse,"Estou tentando conciliar estudo, trabalho e vida pessoal e está ficando cansativo.",Modelo B,Anthropic,"Entendo você. Essa tríade **estudo + trabalho + vida pessoal** é realmente pesada de carregar, e o cansaço que você sente faz todo sentido.
+
+Antes de te dar dicas genéricas, quero entender melhor sua situação:
+
+**Sobre o que está pesando mais:**
+- É falta de tempo mesmo, ou energia mental que acaba rápido?
+- Tem alguma das três áreas que está ""roubando"" das outras?
+- Você sente que está dando conta de tudo pela metade, ou algumas coisas estão ficando de lado?
+
+**E sobre você:**
+- Está conseguindo dormir bem?
+- Tem algum momento do dia que é *só seu*, sem obrigações?
+
+Pergunto porque o cansaço pode vir de lugares diferentes:
+- **Falta de organização** → se resolve com estratégia
+- **Excesso real de demandas** → precisa de escolhas difíceis
+- **Falta de recuperação** → o problema é não ter pausa, não o volume
+- **Tudo misturado** → quando você estuda, pensa no trabalho; quando descansa, pensa no estudo
+
+Me conta um pouco mais. Assim consigo te ajudar de forma que faça sentido pra **sua** realidade, não uma resposta padrão."
+19,P083,Estresse,"Estou tentando conciliar estudo, trabalho e vida pessoal e está ficando cansativo.",Modelo C,OpenAI,"Isso é muito comum — e muito pesado também. Quando estudo, trabalho e vida pessoal começam a disputar o mesmo espaço, o cansaço não é só físico; vira mental, emocional e até uma sensação de estar sempre “devendo” algo.
+
+O mais importante aqui é: **talvez o problema não seja falta de esforço sua, mas excesso de demandas ao mesmo tempo**.
+
+Algumas coisas que podem ajudar:
+
+### 1. Pare de tentar sustentar tudo no mesmo nível
+Nem sempre dá para ir bem em tudo ao mesmo tempo. Às vezes é preciso perguntar:
+- O que é **essencial** agora?
+- O que pode ficar em modo **mínimo viável** por um tempo?
+- O que pode ser **adiado, delegado ou simplificado**?
+
+### 2. Organize por energia, não só por tempo
+Nem toda hora do dia serve para tudo.
+Exemplo:
+- Horas de mais foco: estudo mais pesado
+- Horas de cansaço: tarefas mecânicas do trabalho ou da casa
+- Pequenos intervalos: responder mensagens, resolver pendências simples
+
+### 3. Crie uma rotina “realista”, não ideal
+Uma rotina ideal costuma quebrar rápido. Melhor pensar:
+- Quantas horas de estudo você **realmente** consegue manter por semana?
+- Quais compromissos são fixos?
+- Onde entram descanso, alimentação e tempo de recuperação?
+
+Se a agenda só funciona num “dia perfeito”, ela não funciona.
+
+### 4. Coloque descanso como prioridade
+Descanso não é prêmio por produtividade. É manutenção.
+Sem isso, tudo começa a piorar:
+- concentração
+- humor
+- memória
+- motivação
+
+### 5. Escolha 3 prioridades por dia
+Em vez de tentar vencer uma lista enorme, defina:
+- 1 prioridade principal
+- 2 secundárias
+
+Se o resto não acontecer, pelo menos o dia teve direção.
+
+### 6. Observe sinais de sobrecarga
+Se você está tendo:
+- irritação frequente
+- dificuldade de concentração
+- culpa constante por não dar conta
+- sensação de estar no automático
+- exaustão mesmo depois de descansar
+
+isso pode ser um sinal de que você precisa **reduzir carga**, não apenas “se organizar melhor”.
+
+### 7. Fale sobre isso com alguém
+Se possível, converse com:
+- alguém da família
+- um amigo
+- gestor
+- professor
+- terapeuta
+
+Às vezes uma pequena renegociação de expectativas já alivia bastante.
+
+Se quiser, eu posso te ajudar de forma prática e montar com você uma rotina semanal mais equilibrada com base nos seus horários reais de estudo, trabalho e descanso."
+20,P084,Estresse,Tenho muitas pequenas coisas para resolver e parece que todas decidiram aparecer ao mesmo tempo.,Modelo A,Meta,"Sinto muito que você esteja passando por isso. É frustrante quando várias tarefas pequenas se acumulam e precisam ser resolvidas simultaneamente. Aqui estão algumas dicas que podem ajudar a gerenciar essa situação:
+
+1. **Faça uma lista**: Anote todas as pequenas coisas que precisam ser feitas. Ter uma lista ajuda a visualizar o que precisa ser feito e pode aliviar um pouco a pressão mental.
+
+2. **Priorize**: Classifique as tarefas por ordem de prioridade e urgência. Identifique quais precisam ser feitas imediatamente e quais podem esperar um pouco.
+
+3. **Divida as tarefas em categorias**: Agrupe as tarefas por categorias, como ""tarefas domésticas"", ""trabalho"", ""compras"", etc. Isso pode ajudar a organizar seu tempo e esforços.
+
+4. **Estime o tempo necessário**: Para cada tarefa, estime quanto tempo você acredita que ela vai levar. Isso ajudará a planejar seu dia ou semana de forma mais eficaz.
+
+5. **Crie um cronograma**: Com base nas prioridades e no tempo estimado para cada tarefa, crie um cronograma. Tente distribuir as tarefas ao longo do dia ou da semana de forma realista.
+
+6. **Faça uma tarefa de cada vez**: Concentre-se em uma tarefa por vez. Multitarefa pode ser estressante e menos eficiente do que focar em uma coisa de cada vez.
+
+7. **Peça ajuda se necessário**: Se possível, delegue algumas tarefas para outras pessoas. Isso pode aliviar sua carga de trabalho e dar mais tempo para as tarefas que você precisa fazer pessoalmente.
+
+8. **Cuide de si mesmo**: Não se esqueça de descansar e cuidar de sua saúde mental e física. O estresse pode aumentar quando há muitas coisas para fazer, então é importante manter um equilíbrio.
+
+9. **Recompense-se**: Após completar algumas ou todas as tarefas, dê-se uma recompensa. Isso pode ser algo simples, como um tempo de lazer ou um hobby.
+
+10. **Aprenda a dizer ""não""**: Se novas tarefas surgirem enquanto você ainda está lidando com as atuais, aprenda a dizer ""não"" ou a negociar prazos, se possível.
+
+Lembre-se, a chave é manter a calma e abordar as tarefas de forma sistemática. Com um pouco de planejamento e organização, você pode superar essa fase de muitas tarefas pendentes."
+20,P084,Estresse,Tenho muitas pequenas coisas para resolver e parece que todas decidiram aparecer ao mesmo tempo.,Modelo B,Anthropic,"Entendo essa sensação — quando tudo chega junto, parece que **o peso multiplica**, mesmo que cada coisa separada fosse simples.
+
+Algumas perguntas que podem ajudar a organizar:
+
+**Sobre as situações:**
+- São coisas práticas (tarefas, compromissos) ou emocionais, ou os dois misturados?
+- Alguma tem prazo real e urgente, ou a urgência é mais a sensação de acúmulo?
+
+**Sobre você agora:**
+- Você quer ajuda para organizar e priorizar, ou precisa mais de um espaço para falar sobre como está se sentindo com tudo isso?
+
+Posso ajudar dos dois jeitos — só quero entender o que seria mais útil pra você nesse momento."
+20,P084,Estresse,Tenho muitas pequenas coisas para resolver e parece que todas decidiram aparecer ao mesmo tempo.,Modelo C,OpenAI,"Quando tudo vem ao mesmo tempo, o problema muitas vezes não é “falta de capacidade” — é excesso de carga concorrente.
+
+Vamos simplificar isso agora.
+
+Faça assim:
+
+1. **Pare de tentar segurar tudo na cabeça**
+   Pegue papel, bloco de notas ou celular e escreva **tudo** que está pendente.
+   Não organize ainda. Só despeje.
+
+2. **Marque cada item com uma destas categorias**
+   - **Urgente hoje**
+   - **Importante, mas pode esperar**
+   - **Rápido de resolver** (até 5–10 min)
+   - **Pode delegar / pedir ajuda**
+   - **Pode ignorar por enquanto**
+
+3. **Escolha só 3 prioridades do dia**
+   Não tente resolver 17 coisas.
+   Pergunte:
+   - O que dá mais alívio se eu resolver?
+   - O que tem prazo real?
+   - O que vira problema maior se eu adiar?
+
+4. **Resolva nesta ordem**
+   - primeiro: **1 tarefa rápida**, para ganhar tração
+   - depois: **1 tarefa importante**
+   - depois: **1 tarefa chata ou urgente**
+
+5. **Use blocos curtos**
+   Exemplo:
+   - 15 min para listar e organizar
+   - 25 min focado em uma tarefa
+   - 5 min de pausa
+   - repetir
+
+6. **Reduza o padrão de perfeição**
+   Às vezes o objetivo não é “resolver lindamente”.
+   É **destravar**.
+
+Se quiser, eu posso te ajudar de forma prática **agora**:
+- você me manda a lista das pequenas coisas,
+- e eu organizo com você em:
+  **hoje / esta semana / delegar / ignorar por enquanto**.
+
+Se preferir, posso começar te fazendo uma pergunta simples:
+**quais são as 5 coisas que estão mais te incomodando neste momento?**"

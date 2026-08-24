@@ -1,0 +1,102 @@
+{
+  "P001": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "OpenAI",
+    "Modelo C": "Meta"
+  },
+  "P002": {
+    "Modelo A": "Meta",
+    "Modelo B": "Anthropic",
+    "Modelo C": "OpenAI"
+  },
+  "P003": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "Meta",
+    "Modelo C": "OpenAI"
+  },
+  "P004": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "Meta",
+    "Modelo C": "OpenAI"
+  },
+  "P021": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "OpenAI",
+    "Modelo C": "Meta"
+  },
+  "P022": {
+    "Modelo A": "OpenAI",
+    "Modelo B": "Anthropic",
+    "Modelo C": "Meta"
+  },
+  "P023": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "Meta",
+    "Modelo C": "OpenAI"
+  },
+  "P024": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "Meta",
+    "Modelo C": "OpenAI"
+  },
+  "P041": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "Meta",
+    "Modelo C": "OpenAI"
+  },
+  "P042": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "OpenAI",
+    "Modelo C": "Meta"
+  },
+  "P043": {
+    "Modelo A": "OpenAI",
+    "Modelo B": "Anthropic",
+    "Modelo C": "Meta"
+  },
+  "P044": {
+    "Modelo A": "Meta",
+    "Modelo B": "Anthropic",
+    "Modelo C": "OpenAI"
+  },
+  "P061": {
+    "Modelo A": "OpenAI",
+    "Modelo B": "Anthropic",
+    "Modelo C": "Meta"
+  },
+  "P062": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "Meta",
+    "Modelo C": "OpenAI"
+  },
+  "P063": {
+    "Modelo A": "OpenAI",
+    "Modelo B": "Anthropic",
+    "Modelo C": "Meta"
+  },
+  "P064": {
+    "Modelo A": "OpenAI",
+    "Modelo B": "Meta",
+    "Modelo C": "Anthropic"
+  },
+  "P081": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "Meta",
+    "Modelo C": "OpenAI"
+  },
+  "P082": {
+    "Modelo A": "Meta",
+    "Modelo B": "OpenAI",
+    "Modelo C": "Anthropic"
+  },
+  "P083": {
+    "Modelo A": "Meta",
+    "Modelo B": "Anthropic",
+    "Modelo C": "OpenAI"
+  },
+  "P084": {
+    "Modelo A": "Meta",
+    "Modelo B": "Anthropic",
+    "Modelo C": "OpenAI"
+  }
+}
