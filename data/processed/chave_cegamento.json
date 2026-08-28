@@ -1,0 +1,22 @@
+{
+  "M011": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "OpenAI",
+    "Modelo C": "Meta"
+  },
+  "M028": {
+    "Modelo A": "Meta",
+    "Modelo B": "Anthropic",
+    "Modelo C": "OpenAI"
+  },
+  "M052": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "Meta",
+    "Modelo C": "OpenAI"
+  },
+  "M077": {
+    "Modelo A": "Anthropic",
+    "Modelo B": "Meta",
+    "Modelo C": "OpenAI"
+  }
+}
