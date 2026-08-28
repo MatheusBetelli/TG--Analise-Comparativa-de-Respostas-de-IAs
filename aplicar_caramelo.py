@@ -4,10 +4,6 @@ import pandas as pd
 from transformers import pipeline
 
 
-# ============================================================
-# ARQUIVOS
-# ============================================================
-
 INPUT_CSV = Path(
     "data/output/respostas_ias_tg.csv"
 )
@@ -16,21 +12,20 @@ OUTPUT_CSV = Path(
     "data/processed/resultados_caramelo.csv"
 )
 
-
-# ============================================================
-# MODELO
-# ============================================================
-
 MODEL_NAME = "Adilmar/caramelo-smile"
 
 
-# ============================================================
-# PROGRAMA PRINCIPAL
-# ============================================================
-
 def main():
+    if not INPUT_CSV.exists():
+        raise FileNotFoundError(
+            f"Arquivo de respostas não encontrado: {INPUT_CSV.resolve()}"
+        )
 
-    print("Carregando Caramelo-Smile...")
+    print("=" * 60)
+    print("ANÁLISE COM CARAMELO-SMILE")
+    print("=" * 60)
+
+    print("\nCarregando Caramelo-Smile...")
 
     classifier = pipeline(
         "text-classification",
@@ -39,37 +34,55 @@ def main():
 
     print("Modelo carregado.")
 
-
-    # ========================================================
-    # CARREGA AS RESPOSTAS
-    # ========================================================
-
     df = pd.read_csv(
         INPUT_CSV,
         encoding="utf-8-sig"
     )
 
-    print(
-        f"Respostas encontradas: {len(df)}"
+    colunas_necessarias = {
+        "response_id",
+        "resposta",
+        "status",
+    }
+
+    faltando = (
+        colunas_necessarias
+        - set(df.columns)
     )
 
+    if faltando:
+        raise ValueError(
+            f"Colunas ausentes: {sorted(faltando)}"
+        )
 
-    # ========================================================
-    # LISTA DOS RESULTADOS
-    # ========================================================
+    # Analisa somente respostas coletadas com sucesso.
+    df = df[
+        df["status"].astype(str).str.upper()
+        == "OK"
+    ].copy()
+
+    df["resposta"] = (
+        df["resposta"]
+        .fillna("")
+        .astype(str)
+        .str.strip()
+    )
+
+    df = df[
+        df["resposta"] != ""
+    ].copy()
+
+    print(
+        f"Respostas válidas encontradas: {len(df)}"
+    )
 
     resultados_finais = []
 
-
-    # ========================================================
-    # CLASSIFICA CADA RESPOSTA
-    # ========================================================
-
-    for indice, row in df.iterrows():
-
-        texto = str(
-            row["resposta"]
-        )
+    for posicao, (_, row) in enumerate(
+        df.iterrows(),
+        start=1
+    ):
+        texto = row["resposta"]
 
         resultado = classifier(
             texto,
@@ -77,64 +90,37 @@ def main():
             max_length=512
         )[0]
 
+        classificacao = resultado["label"]
+        score = resultado["score"]
 
-        classificacao = resultado[
-            "label"
-        ]
+        resultados_finais.append(
+            {
+                "response_id":
+                    row["response_id"],
 
-        score = resultado[
-            "score"
-        ]
+                "classificacao":
+                    classificacao,
 
-
-        # ====================================================
-        # GUARDA SOMENTE O QUE INTERESSA
-        # ====================================================
-
-        resultados_finais.append({
-
-            "response_id":
-                row["response_id"],
-
-            "classificacao":
-                classificacao,
-
-            "score":
-                round(score, 6)
-
-        })
-
+                "score":
+                    round(float(score), 6),
+            }
+        )
 
         print(
-            f"[{indice + 1}/{len(df)}] "
+            f"[{posicao}/{len(df)}] "
             f"{row['response_id']} -> "
             f"{classificacao} "
             f"({score:.4f})"
         )
 
-
-    # ========================================================
-    # CRIA DATAFRAME SOMENTE COM RESULTADOS
-    # ========================================================
-
     df_resultados = pd.DataFrame(
         resultados_finais
     )
-
-
-    # ========================================================
-    # CRIA PASTA
-    # ========================================================
 
     OUTPUT_CSV.parent.mkdir(
         parents=True,
         exist_ok=True
     )
-
-
-    # ========================================================
-    # SALVA CSV
-    # ========================================================
 
     df_resultados.to_csv(
         OUTPUT_CSV,
@@ -142,42 +128,25 @@ def main():
         encoding="utf-8-sig"
     )
 
-
-    # ========================================================
-    # RESUMO
-    # ========================================================
-
     print()
-
     print("=" * 60)
     print("ANÁLISE CONCLUÍDA")
     print("=" * 60)
-
     print(
         f"Respostas analisadas: "
         f"{len(df_resultados)}"
     )
-
     print()
-
-    print(
-        "Distribuição das classificações:"
-    )
-
+    print("Distribuição das classificações:")
     print(
         df_resultados[
             "classificacao"
         ].value_counts()
     )
-
     print()
-
     print(
-        f"Arquivo salvo em:"
-    )
-
-    print(
-        OUTPUT_CSV.resolve()
+        f"Arquivo salvo em: "
+        f"{OUTPUT_CSV.resolve()}"
     )
 
 

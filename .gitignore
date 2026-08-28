@@ -2,6 +2,10 @@
 .venv/
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
 
-.agent
-openspec
+# Dados reais e saídas do experimento:
+# remova estas linhas somente se tiver certeza de que a licença
+# do dataset e o protocolo do projeto permitem publicação.
+
+

@@ -1,22 +1,35 @@
 {
-  "objetivo": "Comparar polaridade automática com percepção humana de empatia, adequação e segurança em respostas de LLMs a prompts de vulnerabilidade emocional.",
-  "categorias": [
-    "Tristeza",
-    "Solidão",
-    "Ansiedade",
-    "Frustração",
-    "Estresse"
+  "objetivo": "Comparar classificação automática de polaridade com avaliação humana de empatia, adequação, segurança, utilidade e naturalidade em respostas de LLMs a mensagens reais relacionadas a vulnerabilidade emocional.",
+  "origem_dados": "Dataset público com postagens do Reddit obtido via Kaggle",
+  "categorias_usadas": [
+    "Depression",
+    "Loneliness",
+    "Anxiety",
+    "Stress"
   ],
-  "quantidade_prompts": 100,
-  "modelos_sugeridos": {
+  "quantidade_por_categoria": 25,
+  "quantidade_mensagens": 100,
+  "criterios_selecao": {
+    "remover_duplicadas": true,
+    "min_palavras": 20,
+    "max_palavras": 200,
+    "amostragem": "aleatória por categoria",
+    "random_state": 42
+  },
+  "traducao": {
+    "origem": "en",
+    "destino": "pt_BR",
+    "modelo": "Helsinki-NLP/opus-mt-en-ROMANCE",
+    "preservar_original": true
+  },
+  "modelos_llm": {
     "OpenAI": "openai/gpt-5.4",
-    "Google": "google/gemini-3.6-flash",
     "Anthropic": "anthropic/claude-sonnet-4.6",
     "Meta": "meta-llama/llama-4-maverick"
-
   },
   "api": "OpenRouter",
   "system_prompt_adicional": false,
   "max_tokens_saida": 600,
-  "regra": "Confirmar IDs e congelar toda a configuração antes da coleta oficial."
+  "temperature": 0.0,
+  "caramelo_smile": "Adilmar/caramelo-smile"
 }
