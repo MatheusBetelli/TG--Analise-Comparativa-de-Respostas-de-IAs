@@ -196,7 +196,7 @@ response_id,classificacao,score
 
 ---
 
-## 8. Random Forest
+## 8. Random Forest (Análise de Sentimento)
 
 Execute:
 
@@ -204,8 +204,14 @@ Execute:
 python treino_rf.py
 ```
 
-O script treina a abordagem Random Forest + TF-IDF usando uma amostra do
-B2W-Reviews01 e depois classifica as respostas do TG.
+O script treina a abordagem Random Forest + TF-IDF para **Análise de Sentimento**
+utilizando comentários reais de estudantes universitários brasileiros do dataset
+**BrStudentMH** (`comments.json`, campo `body`), rotulados com o léxico de sentimento
+**SentiLex-PT**.
+
+Ele classifica as 300 respostas de IAs em três polaridades de sentimento:
+`POSITIVO`, `NEUTRO` e `NEGATIVO`, permitindo o comparativo direto com o modelo
+**Caramelo-Smile** e a avaliação humana.
 
 Saída:
 

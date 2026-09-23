@@ -1,5 +1,7 @@
 from pathlib import Path
+import json
 import re
+import urllib.request
 
 import nltk
 import pandas as pd
@@ -10,16 +12,21 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
 
 
-B2W_CSV = Path("data/raw/b2w_reviews_sample.csv")
+COMMENTS_PATH = Path("data/raw/comments.json")
+SENTILEX_PATH = Path("data/raw/SentiLex-flex-PT02.txt")
 TG_CSV = Path("data/output/respostas_ias_tg.csv")
-OUTPUT_CSV = Path(
-    "data/processed/resultados_random_forest.csv"
+OUTPUT_CSV = Path("data/processed/resultados_random_forest.csv")
+
+COMMENTS_URL = (
+    "https://raw.githubusercontent.com/"
+    "MaiconChavesMarques/BrStudentMH-dataset/main/"
+    "comments.json"
 )
 
-B2W_URL = (
+SENTILEX_URL = (
     "https://raw.githubusercontent.com/"
-    "b2wdigital/b2w-reviews01/master/"
-    "B2W-Reviews01.csv"
+    "sillasgonzaga/lexiconPT/master/data-raw/"
+    "SentiLex-flex-PT02.txt"
 )
 
 RANDOM_STATE = 42
@@ -46,69 +53,103 @@ def limpar_texto(texto):
     return texto
 
 
-def categorizar_rating(rating):
-    if rating <= 2:
-        return "NEGATIVO"
+def baixar_se_necessario(url: str, destino: Path):
+    if destino.exists():
+        return
 
-    if rating == 3:
-        return "NEUTRO"
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    print(f"Baixando {destino.name} de {url}...")
 
-    return "POSITIVO"
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Mozilla/5.0"}
+    )
+    with urllib.request.urlopen(req) as resp, open(destino, "wb") as f:
+        while True:
+            chunk = resp.read(1024 * 1024)
+            if not chunk:
+                break
+            f.write(chunk)
+
+    print(f"{destino.name} baixado com sucesso.")
 
 
-def carregar_b2w():
-    if B2W_CSV.exists():
-        return pd.read_csv(
-            B2W_CSV,
-            encoding="utf-8-sig"
+def carregar_sentilex():
+    baixar_se_necessario(SENTILEX_URL, SENTILEX_PATH)
+
+    print("Carregando léxico de sentimento SentiLex-PT...")
+    lexicon = {}
+
+    with open(SENTILEX_PATH, "r", encoding="utf-8", errors="ignore") as f:
+        for line in f:
+            parts = line.split(".")
+            if len(parts) >= 2:
+                word = parts[0].strip().lower().split(",")[0]
+                m = re.search(r"POL:N0=([-0-9]+)", line)
+                if m:
+                    lexicon[word] = int(m.group(1))
+
+    print(f"SentiLex carregado com {len(lexicon)} palavras anotadas.")
+    return lexicon
+
+
+def carregar_dados_estudantes(lexicon):
+    baixar_se_necessario(COMMENTS_URL, COMMENTS_PATH)
+
+    print("Carregando comentários de estudantes do BrStudentMH...")
+    with open(COMMENTS_PATH, "r", encoding="utf-8", errors="ignore") as f:
+        comments_data = json.loads(f.read(), strict=False)
+
+    registros = []
+    for c in comments_data:
+        body = c.get("body", "")
+        texto_limpo = limpar_texto(body)
+        palavras = texto_limpo.split()
+
+        # Filtra comentários curtos demais para conter sinal de sentimento
+        if len(palavras) < 5:
+            continue
+
+        score_sentimento = sum(lexicon.get(w, 0) for w in palavras)
+
+        if score_sentimento > 0:
+            rotulo = "POSITIVO"
+        elif score_sentimento < 0:
+            rotulo = "NEGATIVO"
+        else:
+            rotulo = "NEUTRO"
+
+        registros.append(
+            {
+                "text_clean": texto_limpo,
+                "label": rotulo,
+            }
         )
 
-    print(
-        "Baixando amostra do B2W-Reviews01..."
-    )
+    df = pd.DataFrame(registros)
+    print(f"\nTotal de comentários de estudantes rotulados: {len(df)}")
+    print("Distribuição inicial dos sentimentos:")
+    print(df["label"].value_counts())
 
-    df_raw = pd.read_csv(
-        B2W_URL,
-        low_memory=False
-    ).dropna(
-        subset=[
-            "review_text",
-            "overall_rating"
-        ]
-    )
+    # Balanceamento das classes para evitar viés no Random Forest
+    min_amostras = min(3500, df["label"].value_counts().min())
+    dfs = [
+        df[df["label"] == rotulo].sample(
+            n=min_amostras,
+            random_state=RANDOM_STATE
+        )
+        for rotulo in ["POSITIVO", "NEUTRO", "NEGATIVO"]
+    ]
+    df_balanceado = pd.concat(dfs, ignore_index=True)
 
-    df_raw = df_raw.sample(
-        n=min(10000, len(df_raw)),
-        random_state=RANDOM_STATE
-    )
-
-    B2W_CSV.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    df_raw[
-        [
-            "review_text",
-            "overall_rating"
-        ]
-    ].to_csv(
-        B2W_CSV,
-        index=False,
-        encoding="utf-8-sig"
-    )
-
-    return df_raw[
-        [
-            "review_text",
-            "overall_rating"
-        ]
-    ].copy()
+    print(f"\nBase balanceada para treino: {len(df_balanceado)} comentários ({min_amostras} por classe).")
+    return df_balanceado
 
 
 def main():
     print("=" * 65)
-    print("RANDOM FOREST + TF-IDF")
+    print("RANDOM FOREST + TF-IDF (ANÁLISE DE SENTIMENTO)")
+    print("Treinado com comentários de estudantes (BrStudentMH + SentiLex-PT)")
     print("=" * 65)
 
     nltk.download(
@@ -116,7 +157,7 @@ def main():
         quiet=True
     )
 
-    # Preserva negações importantes para sentimento.
+    # Preserva negações cruciais para a análise de sentimento.
     negacoes = {
         "não",
         "nem",
@@ -131,30 +172,21 @@ def main():
         if palavra not in negacoes
     ]
 
-    df_b2w = carregar_b2w()
-
-    df_b2w["label"] = (
-        df_b2w["overall_rating"]
-        .apply(categorizar_rating)
-    )
-
-    df_b2w["text_clean"] = (
-        df_b2w["review_text"]
-        .apply(limpar_texto)
-    )
+    lexicon = carregar_sentilex()
+    df_treino = carregar_dados_estudantes(lexicon)
 
     vectorizer = TfidfVectorizer(
         stop_words=stop_words_pt,
-        max_features=3000,
+        max_features=4000,
         ngram_range=(1, 2),
         sublinear_tf=True
     )
 
     X = vectorizer.fit_transform(
-        df_b2w["text_clean"]
+        df_treino["text_clean"]
     )
 
-    y = df_b2w["label"]
+    y = df_treino["label"]
 
     (
         X_treino,
@@ -169,6 +201,7 @@ def main():
         stratify=y
     )
 
+    print("\nTreinando Random ForestClassifier...")
     rf_model = RandomForestClassifier(
         n_estimators=150,
         random_state=RANDOM_STATE,
@@ -222,7 +255,7 @@ def main():
 
     if faltando:
         raise ValueError(
-            f"Colunas ausentes: {sorted(faltando)}"
+            f"Colunas ausentes em {TG_CSV.name}: {sorted(faltando)}"
         )
 
     df_tg = df_tg[
@@ -282,22 +315,30 @@ def main():
 
     print()
     print("=" * 65)
-    print("CLASSIFICAÇÃO DAS RESPOSTAS CONCLUÍDA")
+    print("CLASSIFICAÇÃO DE SENTIMENTO DAS RESPOSTAS CONCLUÍDA")
     print("=" * 65)
     print(
         f"Respostas classificadas: "
         f"{len(resultados)}"
     )
     print()
+    print("Distribuição dos sentimentos preditos (Random Forest):")
     print(
         resultados["rf_label"]
         .value_counts()
     )
     print()
     print(
-        f"Arquivo salvo em: "
+        f"Arquivo salvo com sucesso em: "
         f"{OUTPUT_CSV.resolve()}"
     )
+
+    try:
+        from gerar_graficos import gerar_graficos
+        print()
+        gerar_graficos()
+    except Exception as e:
+        print(f"\nAviso: Não foi possível gerar gráficos automáticos: {e}")
 
 
 if __name__ == "__main__":
