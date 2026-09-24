@@ -9,3 +9,6 @@ __pycache__/
 # do dataset e o protocolo do projeto permitem publicação.
 
 
+.env
+__pycache__/
+*.pyc

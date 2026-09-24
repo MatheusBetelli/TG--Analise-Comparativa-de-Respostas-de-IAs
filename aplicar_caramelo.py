@@ -12,7 +12,7 @@ OUTPUT_CSV = Path(
     "data/processed/resultados_caramelo.csv"
 )
 
-MODEL_NAME = "Adilmar/caramelo-smile"
+MODEL_NAME = "Adilmar/caramelo-smile-2"
 
 
 def main():
